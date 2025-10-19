@@ -301,7 +301,7 @@ async function startServer() {
   await updateParkDataCache();
 
   // Schedule updates every 5 minutes
-  cron.schedule('*/5 * * * *', () => {
+  cron.schedule('*/1 * * * *', () => {
     console.log('Scheduled update triggered');
     updateParkDataCache();
   });
