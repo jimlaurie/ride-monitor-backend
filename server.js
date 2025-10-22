@@ -32,7 +32,7 @@ const THEMEPARKS_API = 'https://api.themeparks.wiki/v1';
 // Park IDs from ThemeParks.wiki
 const PARK_IDS = {
   disneyland: '7340550b-c14d-4def-80bb-acdb51d49a66',
-  californiaadventure: '832fcd51-ea47-4a27-8fc8-75ef4c3355e0'
+  californiaadventure: '832fcd51-ea19-4e77-85c7-75d5843b127c'
 };
 
 // Land mappings for Disneyland
