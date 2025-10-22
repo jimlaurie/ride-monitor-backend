@@ -2,6 +2,10 @@ const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 const cron = require('node-cron');
+const nodemailer = require('nodemailer');
+const { Parser } = require('@json2csv/plainjs');
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,13 +23,16 @@ let parkDataCache = {
 // User preferences storage (in production, use a database)
 let userPreferences = {};
 
+// Daily data collection storage
+let dailyDataCollection = [];
+
 // ThemeParks.wiki API base URL
 const THEMEPARKS_API = 'https://api.themeparks.wiki/v1';
 
 // Park IDs from ThemeParks.wiki
 const PARK_IDS = {
   disneyland: '7340550b-c14d-4def-80bb-acdb51d49a66',
-  californiaadventure: '832fcd51-ea19-4e77-85c7-75d5843b127c'
+  californiaadventure: '832fcd51-ea47-4a27-8fc8-75ef4c3355e0'
 };
 
 // Land mappings for Disneyland
@@ -116,7 +123,9 @@ function organizeParkData(parkData, landMap) {
       name: entity.name,
       currentWait: 0,
       avgWait: 30,
-      status: 'CLOSED'
+      status: 'CLOSED',
+      returnTime: null,
+      singleRiderWait: null
     };
 
     // Add live wait time if available
@@ -124,7 +133,41 @@ function organizeParkData(parkData, landMap) {
       const standbyQueue = liveData.queue.STANDBY;
       if (standbyQueue) {
         ride.currentWait = standbyQueue.waitTime || 0;
-        ride.status = liveData.status === 'OPERATING' ? 'OPERATING' : 'DOWN';
+      }
+      
+      // Map status from API
+      if (liveData.status === 'OPERATING') {
+        ride.status = 'OPERATING';
+      } else if (liveData.status === 'DOWN') {
+        ride.status = 'DOWN';
+      } else if (liveData.status === 'REFURBISHMENT') {
+        ride.status = 'REFURBISHMENT';
+      } else if (liveData.status === 'CLOSED') {
+        ride.status = 'CLOSED';
+      } else {
+        ride.status = liveData.status || 'CLOSED';
+      }
+      
+      // Check for RETURN_TIME queue (Lightning Lane, etc.)
+      const returnQueue = liveData.queue.RETURN_TIME;
+      if (returnQueue) {
+        if (returnQueue.state === 'FINISHED') {
+          ride.returnTime = 'Unavailable';
+        } else if (returnQueue.returnEnd) {
+          // Convert to local time
+          const returnDate = new Date(returnQueue.returnEnd);
+          ride.returnTime = returnDate.toLocaleTimeString('en-US', { 
+            hour: 'numeric', 
+            minute: '2-digit',
+            timeZone: 'America/Los_Angeles'
+          });
+        }
+      }
+      
+      // Check for SINGLE_RIDER queue
+      const singleRiderQueue = liveData.queue.SINGLE_RIDER;
+      if (singleRiderQueue && singleRiderQueue.waitTime !== null && singleRiderQueue.waitTime !== undefined) {
+        ride.singleRiderWait = singleRiderQueue.waitTime;
       }
     }
 
@@ -139,6 +182,119 @@ function organizeParkData(parkData, landMap) {
   return lands;
 }
 
+/**
+ * Collect data point for daily CSV
+ */
+function collectDataPoint() {
+  const now = new Date();
+  const pstTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+  const hour = pstTime.getHours();
+  
+  // Only collect between 8am and 11pm PST
+  if (hour < 8 || hour >= 23) {
+    return;
+  }
+  
+  const timestamp = pstTime.toISOString();
+  
+  // Collect data from both parks
+  Object.entries(parkDataCache).forEach(([parkKey, parkData]) => {
+    if (!parkData.lands) return;
+    
+    Object.entries(parkData.lands).forEach(([landName, rides]) => {
+      rides.forEach(ride => {
+        dailyDataCollection.push({
+          timestamp: timestamp,
+          date: pstTime.toLocaleDateString('en-US'),
+          time: pstTime.toLocaleTimeString('en-US'),
+          parkName: parkData.name,
+          landName: landName,
+          rideName: ride.name,
+          rideId: ride.id,
+          status: ride.status || 'UNKNOWN',
+          currentWait: ride.currentWait || 0,
+          averageWait: ride.avgWait || 0
+        });
+      });
+    });
+  });
+  
+  console.log(`📊 Collected data point at ${pstTime.toLocaleTimeString('en-US')} PST - Total records: ${dailyDataCollection.length}`);
+}
+
+/**
+ * Generate CSV from collected data
+ */
+function generateCSV() {
+  if (dailyDataCollection.length === 0) {
+    return null;
+  }
+  
+  const fields = [
+    'timestamp',
+    'date',
+    'time',
+    'parkName',
+    'landName',
+    'rideName',
+    'rideId',
+    'status',
+    'currentWait',
+    'averageWait'
+  ];
+  
+  const parser = new Parser({ fields });
+  const csv = parser.parse(dailyDataCollection);
+  
+  return csv;
+}
+
+/**
+ * Email daily report
+ */
+async function emailDailyReport() {
+  const csv = generateCSV();
+  
+  if (!csv) {
+    console.log('No data collected today, skipping email.');
+    return;
+  }
+  
+  const date = new Date().toLocaleDateString('en-US');
+  const filename = `ride-data-${date.replace(/\//g, '-')}.csv`;
+  
+  // Create email transporter
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL_USER || 'your-email@gmail.com',
+      pass: process.env.EMAIL_PASS || 'your-app-password'
+    }
+  });
+  
+  const mailOptions = {
+    from: process.env.EMAIL_USER || 'your-email@gmail.com',
+    to: process.env.EMAIL_TO || 'jimlaurie@gmail.com',
+    subject: `Ride Wait Times Report - ${date}`,
+    text: `Attached is the daily ride wait times report for ${date}.\n\nTotal data points collected: ${dailyDataCollection.length}`,
+    attachments: [
+      {
+        filename: filename,
+        content: csv
+      }
+    ]
+  };
+  
+  try {
+    await transporter.sendMail(mailOptions);
+    console.log(`✅ Daily report emailed successfully: ${filename}`);
+    
+    // Clear the data collection for next day
+    dailyDataCollection = [];
+  } catch (error) {
+    console.error('❌ Error sending email:', error.message);
+  }
+}
 /**
  * Update cache for all parks
  */
@@ -162,6 +318,9 @@ async function updateParkDataCache() {
       console.error(`✗ Failed to update ${parkKey}:`, error.message);
     }
   }
+  
+  // Collect data point after updating
+  collectDataPoint();
 }
 
 /**
@@ -300,10 +459,18 @@ async function startServer() {
   console.log('Performing initial data fetch...');
   await updateParkDataCache();
 
-  // Schedule updates every 5 minutes
+  // Schedule updates every 1 minute
   cron.schedule('*/1 * * * *', () => {
     console.log('Scheduled update triggered');
     updateParkDataCache();
+  });
+  
+  // Email daily report at 11:30 PM PST (7:30 AM UTC next day)
+  cron.schedule('30 7 * * *', () => {
+    console.log('Sending daily report...');
+    emailDailyReport();
+  }, {
+    timezone: 'America/Los_Angeles'
   });
 
   app.listen(PORT, () => {
