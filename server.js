@@ -190,8 +190,8 @@ function collectDataPoint() {
   const pstTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
   const hour = pstTime.getHours();
   
-  // Only collect between 8am and 11pm PST
-  if (hour < 8 || hour >= 23) {
+  // Only collect between 7am and 12pm PST
+  if (hour < 7 || hour >= 24) {
     return;
   }
   
@@ -225,76 +225,76 @@ function collectDataPoint() {
 /**
  * Generate CSV from collected data
  */
-function generateCSV() {
-  if (dailyDataCollection.length === 0) {
-    return null;
-  }
-  
-  const fields = [
-    'timestamp',
-    'date',
-    'time',
-    'parkName',
-    'landName',
-    'rideName',
-    'rideId',
-    'status',
-    'currentWait',
-    'averageWait'
-  ];
-  
-  const parser = new Parser({ fields });
-  const csv = parser.parse(dailyDataCollection);
-  
-  return csv;
-}
+// function generateCSV() {
+//   if (dailyDataCollection.length === 0) {
+//     return null;
+//   }
+//
+//   const fields = [
+//     'timestamp',
+//     'date',
+//     'time',
+//     'parkName',
+//     'landName',
+//     'rideName',
+//     'rideId',
+//     'status',
+//     'currentWait',
+//     'averageWait'
+//   ];
+//
+//   const parser = new Parser({ fields });
+//   const csv = parser.parse(dailyDataCollection);
+//
+//   return csv;
+// }
 
 /**
  * Email daily report
  */
-async function emailDailyReport() {
-  const csv = generateCSV();
-  
-  if (!csv) {
-    console.log('No data collected today, skipping email.');
-    return;
-  }
-  
-  const date = new Date().toLocaleDateString('en-US');
-  const filename = `ride-data-${date.replace(/\//g, '-')}.csv`;
-  
-  // Create email transporter
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: process.env.EMAIL_USER || 'your-email@gmail.com',
-      pass: process.env.EMAIL_PASS || 'your-app-password'
-    }
-  });
-  
-  const mailOptions = {
-    from: process.env.EMAIL_USER || 'your-email@gmail.com',
-    to: process.env.EMAIL_TO || 'jimlaurie@gmail.com',
-    subject: `Ride Wait Times Report - ${date}`,
-    text: `Attached is the daily ride wait times report for ${date}.\n\nTotal data points collected: ${dailyDataCollection.length}`,
-    attachments: [
-      {
-        filename: filename,
-        content: csv
-      }
-    ]
-  };
-  
-  try {
-    await transporter.sendMail(mailOptions);
-    console.log(`✅ Daily report emailed successfully: ${filename}`);
-    
-    // Clear the data collection for next day
-    dailyDataCollection = [];
-  } catch (error) {
-    console.error('❌ Error sending email:', error.message);
-  }
-}
+// async function emailDailyReport() {
+//   const csv = generateCSV();
+//
+//   if (!csv) {
+//     console.log('No data collected today, skipping email.');
+//     return;
+//   }
+//
+//   const date = new Date().toLocaleDateString('en-US');
+//   const filename = `ride-data-${date.replace(/\//g, '-')}.csv`;
+//
+//   // Create email transporter
+//   const transporter = nodemailer.createTransport({
+//     service: 'gmail',
+//     auth: {
+//       user: process.env.EMAIL_USER || 'your-email@gmail.com',
+//       pass: process.env.EMAIL_PASS || 'your-app-password'
+//     }
+//   });
+//
+//   const mailOptions = {
+//     from: process.env.EMAIL_USER || 'your-email@gmail.com',
+//     to: process.env.EMAIL_TO || 'jimlaurie@gmail.com',
+//     subject: `Ride Wait Times Report - ${date}`,
+//     text: `Attached is the daily ride wait times report for ${date}.\n\nTotal data points collected: ${dailyDataCollection.length}`,
+//     attachments: [
+//       {
+//         filename: filename,
+//         content: csv
+//       }
+//     ]
+//   };
+//
+//   try {
+//     await transporter.sendMail(mailOptions);
+//     console.log(`✅ Daily report emailed successfully: ${filename}`);
+//
+//     // Clear the data collection for next day
+//     dailyDataCollection = [];
+//   } catch (error) {
+//     console.error('❌ Error sending email:', error.message);
+//   }
+// }
 /**
  * Update cache for all parks
  */
@@ -466,12 +466,12 @@ async function startServer() {
   });
   
   // Email daily report at 11:30 PM PST (7:30 AM UTC next day)
-  cron.schedule('30 7 * * *', () => {
-    console.log('Sending daily report...');
-    emailDailyReport();
-  }, {
-    timezone: 'America/Los_Angeles'
-  });
+  // cron.schedule('30 7 * * *', () => {
+  //   console.log('Sending daily report...');
+  //   emailDailyReport();
+  // }, {
+  //   timezone: 'America/Los_Angeles'
+  // });
 
   app.listen(PORT, () => {
     console.log(`
