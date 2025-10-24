@@ -2,8 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 const cron = require('node-cron');
-const nodemailer = require('nodemailer');
-const { Parser } = require('@json2csv/plainjs');
+// const nodemailer = require('nodemailer');
+// const { Parser } = require('@json2csv/plainjs');
 const fs = require('fs');
 const path = require('path');
 
@@ -125,7 +125,12 @@ function organizeParkData(parkData, landMap) {
       avgWait: 30,
       status: 'CLOSED',
       returnTime: null,
-      singleRiderWait: null
+      returnState: null,
+      singleRiderWait: null,
+      paidReturnState: null,
+      paidReturnTime: null,
+      paidReturnPrice: null,
+      paidStandbyWait: null
     };
 
     // Add live wait time if available
@@ -151,9 +156,12 @@ function organizeParkData(parkData, landMap) {
       // Check for RETURN_TIME queue (Lightning Lane, etc.)
       const returnQueue = liveData.queue.RETURN_TIME;
       if (returnQueue) {
-        if (returnQueue.state === 'FINISHED') {
-          ride.returnTime = 'Unavailable';
-        } else if (returnQueue.returnEnd) {
+          ride.returnState = returnQueue.state;
+          if (returnQueue.state === 'FINISHED') {
+              ride.returnTime = 'Unavailable';
+          } else if (returnQueue.state === 'TEMP_FULL') {
+              ride.returnTime = 'Temporarily Full';
+          } else if (returnQueue.returnEnd) {
           // Convert to local time
           const returnDate = new Date(returnQueue.returnEnd);
           ride.returnTime = returnDate.toLocaleTimeString('en-US', { 
@@ -163,7 +171,25 @@ function organizeParkData(parkData, landMap) {
           });
         }
       }
-      
+        // Check for PAID_RETURN_TIME queue (Lightning Lane, etc.)
+        const paidReturnQueue = liveData.queue.PAID_RETURN_TIME;
+        if (paidReturnQueue) {
+            ride.paidReturnState = paidReturnQueue.state;
+            if (paidReturnQueue.state === 'FINISHED') {
+                ride.paidReturnTime = 'Unavailable';
+            } else if (paidReturnQueue.state === 'TEMP_FULL') {
+                ride.paidReturnTime = 'Temporarily Full';
+            } else if (paidReturnQueue.returnEnd) {
+            // Convert to local time
+            const paidReturnDate = new Date(paidReturnQueue.returnEnd);
+            ride.paidReturnTime = paidReturnDate.toLocaleTimeString('en-US', {
+              hour: 'numeric',
+              minute: '2-digit',
+              timeZone: 'America/Los_Angeles'
+            });
+          }
+        }
+
       // Check for SINGLE_RIDER queue
       const singleRiderQueue = liveData.queue.SINGLE_RIDER;
       if (singleRiderQueue && singleRiderQueue.waitTime !== null && singleRiderQueue.waitTime !== undefined) {
@@ -182,119 +208,6 @@ function organizeParkData(parkData, landMap) {
   return lands;
 }
 
-/**
- * Collect data point for daily CSV
- */
-function collectDataPoint() {
-  const now = new Date();
-  const pstTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
-  const hour = pstTime.getHours();
-  
-  // Only collect between 7am and 12pm PST
-  if (hour < 7 || hour >= 24) {
-    return;
-  }
-  
-  const timestamp = pstTime.toISOString();
-  
-  // Collect data from both parks
-  Object.entries(parkDataCache).forEach(([parkKey, parkData]) => {
-    if (!parkData.lands) return;
-    
-    Object.entries(parkData.lands).forEach(([landName, rides]) => {
-      rides.forEach(ride => {
-        dailyDataCollection.push({
-          timestamp: timestamp,
-          date: pstTime.toLocaleDateString('en-US'),
-          time: pstTime.toLocaleTimeString('en-US'),
-          parkName: parkData.name,
-          landName: landName,
-          rideName: ride.name,
-          rideId: ride.id,
-          status: ride.status || 'UNKNOWN',
-          currentWait: ride.currentWait || 0,
-          averageWait: ride.avgWait || 0
-        });
-      });
-    });
-  });
-  
-  console.log(`📊 Collected data point at ${pstTime.toLocaleTimeString('en-US')} PST - Total records: ${dailyDataCollection.length}`);
-}
-
-/**
- * Generate CSV from collected data
- */
-// function generateCSV() {
-//   if (dailyDataCollection.length === 0) {
-//     return null;
-//   }
-//
-//   const fields = [
-//     'timestamp',
-//     'date',
-//     'time',
-//     'parkName',
-//     'landName',
-//     'rideName',
-//     'rideId',
-//     'status',
-//     'currentWait',
-//     'averageWait'
-//   ];
-//
-//   const parser = new Parser({ fields });
-//   const csv = parser.parse(dailyDataCollection);
-//
-//   return csv;
-// }
-
-/**
- * Email daily report
- */
-// async function emailDailyReport() {
-//   const csv = generateCSV();
-//
-//   if (!csv) {
-//     console.log('No data collected today, skipping email.');
-//     return;
-//   }
-//
-//   const date = new Date().toLocaleDateString('en-US');
-//   const filename = `ride-data-${date.replace(/\//g, '-')}.csv`;
-//
-//   // Create email transporter
-//   const transporter = nodemailer.createTransport({
-//     service: 'gmail',
-//     auth: {
-//       user: process.env.EMAIL_USER || 'your-email@gmail.com',
-//       pass: process.env.EMAIL_PASS || 'your-app-password'
-//     }
-//   });
-//
-//   const mailOptions = {
-//     from: process.env.EMAIL_USER || 'your-email@gmail.com',
-//     to: process.env.EMAIL_TO || 'jimlaurie@gmail.com',
-//     subject: `Ride Wait Times Report - ${date}`,
-//     text: `Attached is the daily ride wait times report for ${date}.\n\nTotal data points collected: ${dailyDataCollection.length}`,
-//     attachments: [
-//       {
-//         filename: filename,
-//         content: csv
-//       }
-//     ]
-//   };
-//
-//   try {
-//     await transporter.sendMail(mailOptions);
-//     console.log(`✅ Daily report emailed successfully: ${filename}`);
-//
-//     // Clear the data collection for next day
-//     dailyDataCollection = [];
-//   } catch (error) {
-//     console.error('❌ Error sending email:', error.message);
-//   }
-// }
 /**
  * Update cache for all parks
  */
