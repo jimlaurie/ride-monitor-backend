@@ -279,7 +279,7 @@ async function updateParkDataCache() {
   }
   
   // Collect data point after updating
-//  collectDataPoint();
+  collectDataPoint();
 }
 
 /**
