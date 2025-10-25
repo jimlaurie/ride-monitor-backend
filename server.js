@@ -209,6 +209,52 @@ function organizeParkData(parkData, landMap) {
 }
 
 /**
+ * Collect data point for daily CSV
+ */
+function collectDataPoint() {
+  const now = new Date();
+  const pstTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+  const hour = pstTime.getHours();
+  
+  // Only collect between 7am and 12pm PST
+  if (hour < 7 || hour >= 24) {
+    return;
+  }
+  
+  const timestamp = pstTime.toISOString();
+  
+  // Collect data from both parks
+  Object.entries(parkDataCache).forEach(([parkKey, parkData]) => {
+    if (!parkData.lands) return;
+    
+    Object.entries(parkData.lands).forEach(([landName, rides]) => {
+      rides.forEach(ride => {
+        dailyDataCollection.push({
+          timestamp: timestamp,
+          date: pstTime.toLocaleDateString('en-US'),
+          time: pstTime.toLocaleTimeString('en-US'),
+          parkName: parkData.name,
+          landName: landName,
+          rideId: ride.id,
+          rideName: ride.name,
+          currentWait: ride.currentWait || 0,
+          averageWait: ride.avgWait || 0,
+          status: ride.status || 'UNKNOWN',
+          returnTime: ride.returnTime || null,
+          returnState: ride.returnState || null,
+          singleRiderWait: ride.singleRiderWait || 0,
+          paidReturnState: ride.paidReturnState || null,
+          paidReturnTime: ride.paidReturnTime || null,
+          paidReturnPrice: ride.paidReturnPrice || null,
+          paidStandbyWait: ride.paidStandbyWait || null
+        });
+      });
+    });
+  });
+  
+  console.log(`📊 Collected data point at ${pstTime.toLocaleTimeString('en-US')} PST - Total records: ${dailyDataCollection.length}`);
+}
+/**
  * Update cache for all parks
  */
 async function updateParkDataCache() {
@@ -233,7 +279,7 @@ async function updateParkDataCache() {
   }
   
   // Collect data point after updating
-  collectDataPoint();
+//  collectDataPoint();
 }
 
 /**
