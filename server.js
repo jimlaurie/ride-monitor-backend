@@ -131,13 +131,6 @@ function organizeParkData(parkData, landMap) {
       paidStandbyWait: null
     };
 
-    // Add live wait time if available
-    if (liveData && liveData.queue) {
-      const standbyQueue = liveData.queue.STANDBY;
-      if (standbyQueue) {
-        ride.currentWait = standbyQueue.waitTime || 0;
-      }
-      
       // Map status from API
       if (liveData.status === 'OPERATING') {
         ride.status = 'OPERATING';
@@ -150,7 +143,14 @@ function organizeParkData(parkData, landMap) {
       } else {
         ride.status = liveData.status || 'CLOSED';
       }
-      
+
+      // Add live wait time if available
+      if (liveData && liveData.queue) {
+        const standbyQueue = liveData.queue.STANDBY;
+        if (standbyQueue) {
+          ride.currentWait = standbyQueue.waitTime || 0;
+        }
+
       // Check for RETURN_TIME queue (Lightning Lane, etc.)
       const returnQueue = liveData.queue.RETURN_TIME;
       if (returnQueue) {
