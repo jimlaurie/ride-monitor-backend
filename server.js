@@ -130,13 +130,24 @@ function organizeParkData(parkData, landMap) {
       paidReturnPrice: null,
       paidStandbyWait: null
     };
+      // Map status from API
+      if (liveData.status === 'OPERATING') {
+        ride.status = 'OPERATING';
+      } else if (liveData.status === 'DOWN') {
+        ride.status = 'DOWN';
+      } else if (liveData.status === 'REFURBISHMENT') {
+        ride.status = 'REFURBISHMENT';
+      } else if (liveData.status === 'CLOSED') {
+        ride.status = 'CLOSED';
+      } else {
+        ride.status = liveData.status || 'CLOSED';
+      }
 
     // Add live wait time if available
-      if (liveData && liveData.queue) {
-          const standbyQueue = liveData.queue.STANDBY;
-          if (standbyQueue) {
-              ride.currentWait = standbyQueue.waitTime || 0;
-          }
+    if (liveData && liveData.queue) {
+      const standbyQueue = liveData.queue.STANDBY;
+      if (standbyQueue) {
+        ride.currentWait = standbyQueue.waitTime || 0;
       }
       
       // Map status from API
