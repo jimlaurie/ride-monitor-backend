@@ -159,10 +159,10 @@ function organizeParkData(parkData, landMap) {
               ride.returnTime = 'Unavailable';
           } else if (returnQueue.state === 'TEMP_FULL') {
               ride.returnTime = 'Temporarily Full';
-          } else if (returnQueue.returnEnd) {
+          } else if (returnQueue.state === 'AVAILABLE') {
           // Convert to local time
-          const returnDate = new Date(returnQueue.returnEnd);
-          ride.returnTime = returnDate.toLocaleTimeString('en-US', { 
+          const returnDate = new Date(returnQueue.returnStart);
+          ride.returnTime = returnDate.toLocaleTimeString('en-US', {
             hour: 'numeric', 
             minute: '2-digit',
             timeZone: 'America/Los_Angeles'
@@ -177,9 +177,9 @@ function organizeParkData(parkData, landMap) {
                 ride.paidReturnTime = 'Unavailable';
             } else if (paidReturnQueue.state === 'TEMP_FULL') {
                 ride.paidReturnTime = 'Temporarily Full';
-            } else if (paidReturnQueue.returnEnd) {
+            } else if (paidReturnQueue.returnStart) {
             // Convert to local time
-            const paidReturnDate = new Date(paidReturnQueue.returnEnd);
+            const paidReturnDate = new Date(paidReturnQueue.returnStart);
             ride.paidReturnTime = paidReturnDate.toLocaleTimeString('en-US', {
               hour: 'numeric',
               minute: '2-digit',
