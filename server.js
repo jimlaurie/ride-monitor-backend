@@ -185,6 +185,7 @@ function organizeParkData(parkData, landMap) {
               minute: '2-digit',
               timeZone: 'America/Los_Angeles'
             });
+            ride.paidReturnPrice = paidReturnQueue.price.formatted;
           }
         }
 
