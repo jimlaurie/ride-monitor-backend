@@ -132,7 +132,7 @@ function organizeParkData(parkData, landMap) {
     };
 
     // Add live wait time if available
-    if (liveData && liveData.queue) {
+    if (liveData || liveData.queue) {
       const standbyQueue = liveData.queue.STANDBY;
       if (standbyQueue) {
         ride.currentWait = standbyQueue.waitTime || 0;
