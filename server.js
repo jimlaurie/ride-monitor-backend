@@ -130,9 +130,7 @@ function organizeParkData(parkData, landMap) {
       paidReturnPrice: null,
       paidStandbyWait: null
     };
-      if (entity.status) {
-          ride.status = entity.status;
-      }
+     
       
     // Add live wait time if available
     if (liveData && liveData.queue) {
