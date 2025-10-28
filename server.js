@@ -128,7 +128,11 @@ function organizeParkData(parkData, landMap) {
       paidReturnState: null,
       paidReturnTime: null,
       paidReturnPrice: null,
-      paidStandbyWait: null
+      paidStandbyWait: null,
+      forecastWait1: null,
+      forecastWait2: null,
+      forecastHour1: null,
+      forecastHour2: null
     };
      
       
@@ -194,8 +198,55 @@ function organizeParkData(parkData, landMap) {
 
       // Check for SINGLE_RIDER queue
       const singleRiderQueue = liveData.queue.SINGLE_RIDER;
-      if (singleRiderQueue && singleRiderQueue.waitTime !== null && singleRiderQueue.waitTime !== undefined) {
-        ride.singleRiderWait = singleRiderQueue.waitTime;
+      if (singleRiderQueue) {
+        // Just mark as available if the queue exists, regardless of waitTime value
+        ride.singleRiderWait = 'Available';
+      }
+    }
+
+    // Process forecast data if available
+    if (liveData && liveData.forecast && liveData.forecast.length > 0) {
+      const now = new Date();
+      const currentHour = now.getHours();
+      
+      // Find forecast entries for current hour, next hour, and hour after
+      const currentForecast = liveData.forecast.find(f => {
+        const forecastDate = new Date(f.time);
+        return forecastDate.getHours() === currentHour;
+      });
+      
+      const nextHourForecast = liveData.forecast.find(f => {
+        const forecastDate = new Date(f.time);
+        return forecastDate.getHours() === currentHour + 1;
+      });
+      
+      const nextNextHourForecast = liveData.forecast.find(f => {
+        const forecastDate = new Date(f.time);
+        return forecastDate.getHours() === currentHour + 2;
+      });
+      
+      // Set avgWait to current hour's forecast if available
+      if (currentForecast && currentForecast.waitTime !== null && currentForecast.waitTime !== undefined) {
+        ride.avgWait = currentForecast.waitTime;
+      }
+      
+      // Set forecast data for next two hours
+      if (nextHourForecast) {
+        const forecastDate1 = new Date(nextHourForecast.time);
+        ride.forecastHour1 = forecastDate1.toLocaleTimeString('en-US', {
+          hour: 'numeric',
+          timeZone: 'America/Los_Angeles'
+        });
+        ride.forecastWait1 = nextHourForecast.waitTime;
+      }
+      
+      if (nextNextHourForecast) {
+        const forecastDate2 = new Date(nextNextHourForecast.time);
+        ride.forecastHour2 = forecastDate2.toLocaleTimeString('en-US', {
+          hour: 'numeric',
+          timeZone: 'America/Los_Angeles'
+        });
+        ride.forecastWait2 = nextNextHourForecast.waitTime;
       }
     }
 
