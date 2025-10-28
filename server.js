@@ -195,21 +195,8 @@ function organizeParkData(parkData, landMap) {
         ride.singleRiderWait = singleRiderQueue.waitTime;
       }
     }
-      If (livedata && !liveData.queue) {
-          // Map status from API
-          if (liveData.status === 'OPERATING') {
-            ride.status = 'OPERATING';
-          } else if (liveData.status === 'DOWN') {
-            ride.status = 'DOWN';
-          } else if (liveData.status === 'REFURBISHMENT') {
-            ride.status = 'REFURBISHMENT';
-          } else if (liveData.status === 'CLOSED') {
-            ride.status = 'CLOSED';
-          } else {
-            ride.status = liveData.status || 'CLOSED';
-          }
-      }
-    // Initialize land if needed
+
+      // Initialize land if needed
     if (!lands[landName]) {
       lands[landName] = [];
     }
