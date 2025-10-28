@@ -195,7 +195,7 @@ function organizeParkData(parkData, landMap) {
         ride.singleRiderWait = singleRiderQueue.waitTime;
       }
     }
-      If (livedata) {
+      If (livedata && !liveData.queue) {
           // Map status from API
           if (liveData.status === 'OPERATING') {
             ride.status = 'OPERATING';
