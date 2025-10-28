@@ -121,7 +121,7 @@ function organizeParkData(parkData, landMap) {
       name: entity.name,
       currentWait: 0,
       avgWait: 30,
-      status: liveData.status,
+      status: entity.status,
       returnTime: null,
       returnState: null,
       singleRiderWait: null,
