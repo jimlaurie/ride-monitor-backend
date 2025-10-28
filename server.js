@@ -132,14 +132,8 @@ function organizeParkData(parkData, landMap) {
     };
      
       
-    // Add live wait time if available
-    if (liveData && liveData.queue) {
-      const standbyQueue = liveData.queue.STANDBY;
-      if (standbyQueue) {
-        ride.currentWait = standbyQueue.waitTime || 0;
-      }
-      
-      // Map status from API
+    // Map status from API first (before checking queue data)
+    if (liveData) {
       if (liveData.status === 'OPERATING') {
         ride.status = 'OPERATING';
       } else if (liveData.status === 'DOWN') {
@@ -150,6 +144,14 @@ function organizeParkData(parkData, landMap) {
         ride.status = 'CLOSED';
       } else {
         ride.status = liveData.status || 'CLOSED';
+      }
+    }
+    
+    // Add live wait time if available
+    if (liveData && liveData.queue) {
+      const standbyQueue = liveData.queue.STANDBY;
+      if (standbyQueue) {
+        ride.currentWait = standbyQueue.waitTime || 0;
       }
       
       // Check for RETURN_TIME queue (Lightning Lane, etc.)
@@ -164,7 +166,7 @@ function organizeParkData(parkData, landMap) {
           // Convert to local time
           const returnDate = new Date(returnQueue.returnStart);
           ride.returnTime = returnDate.toLocaleTimeString('en-US', {
-            hour: 'numeric', 
+            hour: 'numeric',
             minute: '2-digit',
             timeZone: 'America/Los_Angeles'
           });
@@ -242,8 +244,8 @@ async function updateParkDataCache() {
 
 // Health check
 app.get('/health', (req, res) => {
-  res.json({ 
-    status: 'ok', 
+  res.json({
+    status: 'ok',
     timestamp: new Date().toISOString(),
     cacheStatus: {
       disneyland: parkDataCache.disneyland.lastUpdated,
@@ -351,15 +353,15 @@ app.get('/api/users/:userId/ready-rides', (req, res) => {
 app.post('/api/refresh', async (req, res) => {
   try {
     await updateParkDataCache();
-    res.json({ 
-      success: true, 
+    res.json({
+      success: true,
       message: 'Cache updated',
       timestamp: new Date().toISOString()
     });
   } catch (error) {
-    res.status(500).json({ 
-      success: false, 
-      error: error.message 
+    res.status(500).json({
+      success: false,
+      error: error.message
     });
   }
 });
