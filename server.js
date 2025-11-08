@@ -185,7 +185,7 @@ function organizeParkData(parkData, landMap) {
           } else if (returnQueue.state === 'AVAILABLE') {
             const returnDate = new Date(returnQueue.returnStart);
             ride.returnTime = returnDate.toLocaleTimeString('en-US', {
-              hour: 'numeric', 
+              hour: 'numeric',
               minute: '2-digit',
               timeZone: 'America/Los_Angeles'
             });
@@ -371,8 +371,8 @@ async function checkAndNotifyUsers() {
       Object.entries(parkData.lands).forEach(([landName, landRides]) => {
         landRides.forEach(ride => {
           const pref = preferences[ride.id];
-          if (pref && pref.enabled && 
-              ride.currentWait <= pref.maxWait && 
+          if (pref && pref.enabled &&
+              ride.currentWait <= pref.maxWait &&
               (ride.status === 'OPERATING' || ride.status === 'DOWN')) {
             readyRides.push({
               ...ride,
@@ -389,7 +389,7 @@ async function checkAndNotifyUsers() {
       notifiedRides[userId] = new Set();
     }
     
-    const newReadyRides = readyRides.filter(ride => 
+    const newReadyRides = readyRides.filter(ride =>
       !notifiedRides[userId].has(ride.id)
     );
     
@@ -409,7 +409,7 @@ async function checkAndNotifyUsers() {
         sound: 'default',
         title: '🎢 Ride Ready!',
         body: body,
-        data: { 
+        data: {
           type: 'ride',
           rideCount: rideCount,
           rides: newReadyRides.map(r => r.name).join(', ')
@@ -620,8 +620,8 @@ function generateId() {
 
 // Health check
 app.get('/health', (req, res) => {
-  res.json({ 
-    status: 'ok', 
+  res.json({
+    status: 'ok',
     timestamp: new Date().toISOString(),
     cacheStatus: {
       disneyland: parkDataCache.disneyland.lastUpdated,
@@ -758,7 +758,7 @@ app.get('/api/users/:userId/ready-rides', (req, res) => {
     Object.entries(parkData.lands).forEach(([landName, landRides]) => {
       landRides.forEach(ride => {
         const pref = preferences[ride.id];
-        if (pref && pref.enabled && ride.currentWait <= pref.maxWait && 
+        if (pref && pref.enabled && ride.currentWait <= pref.maxWait &&
             (ride.status === 'OPERATING' || ride.status === 'DOWN')) {
           readyRides.push({
             ...ride,
@@ -1044,15 +1044,42 @@ app.delete('/api/users/:userId/archives/:date', (req, res) => {
 app.post('/api/refresh', async (req, res) => {
   try {
     await updateParkDataCache();
-    res.json({ 
-      success: true, 
+    res.json({
+      success: true,
       message: 'Cache updated',
       timestamp: new Date().toISOString()
     });
   } catch (error) {
-    res.status(500).json({ 
-      success: false, 
-      error: error.message 
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// DEBUG: Check registered devices (REMOVE IN PRODUCTION)
+app.get('/api/debug/devices', (req, res) => {
+  res.json({
+    registeredDevices: Object.keys(userDeviceTokens).length,
+    deviceTokens: Object.keys(userDeviceTokens),
+    userPreferences: Object.keys(userPreferences),
+  });
+});
+
+// DEBUG: Manually trigger notification check (REMOVE IN PRODUCTION)
+app.post('/api/debug/check-notifications', async (req, res) => {
+  try {
+    await checkAndNotifyUsers();
+    await checkEventReminders();
+    res.json({
+      success: true,
+      message: 'Notification check triggered',
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
     });
   }
 });
