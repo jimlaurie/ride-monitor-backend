@@ -7,7 +7,7 @@ const { Expo } = require('expo-server-sdk');
 const hybridDiningService = require('./hybridDiningService');
 const simplifiedDiningService = require('./simplifiedDiningService');
 const diningService = require('./simplifiedDiningScraper');
-
+const showsService = require('./simplifiedShowsScraper'); // ADD THIS
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -1152,6 +1152,27 @@ app.get('/api/parks/:parkId/dining', (req, res) => {
   }
 });
 
+// Disney Shows Endpoint - Simplified Data
+app.get('/api/parks/:parkId/shows', (req, res) => {
+  try {
+    const { parkId } = req.params;
+    const data = showsService.getCachedData();
+    
+    const shows = parkId === 'disneyland'
+      ? data.disneyland
+      : data.californiaAdventure;
+    
+    res.json({
+      shows,
+      lastScrape: showsService.lastScrape,
+      source: 'Disney Official API (via Puppeteer)'
+    });
+  } catch (error) {
+    console.error('Error getting shows data:', error);
+    res.status(500).json({ error: 'Failed to get shows data' });
+  }
+});
+
 /**
  * Initialize and start server
  */
@@ -1171,7 +1192,11 @@ async function startServer() {
 //    } catch (error) {
 //      console.error('❌ Failed to load Disney dining data:', error);
 //    }
-
+    
+    // Fetch Disney shows data on startup - ADD THIS
+    console.log('Fetching Disney shows data...');
+    await showsService.scrapeShowsData();
+    
   // Schedule park data updates every 1 minute
   cron.schedule('*/1 * * * *', () => {
     console.log('Scheduled update triggered');
@@ -1204,7 +1229,15 @@ async function startServer() {
 //    }, {
 //      timezone: 'America/Los_Angeles'
 //    });
-
+    
+// Update Disney shows data daily at 2:30 AM PST - ADD THIS
+    cron.schedule('30 2 * * *', () => {
+      console.log('Daily Disney shows data refresh triggered');
+      showsService.scrapeShowsData();
+    }, {
+      timezone: 'America/Los_Angeles'
+    });
+    
   app.listen(PORT, () => {
     console.log(`
     🎢 Ride Wait Monitor API Server

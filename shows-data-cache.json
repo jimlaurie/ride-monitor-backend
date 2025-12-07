@@ -1,0 +1,4665 @@
+{
+  "cache": {
+    "disneyland": {
+      "Other": [
+        {
+          "id": "424945",
+          "name": "\"Believe...In Holiday Magic\" Fireworks Spectacular",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:30 PM",
+              "endTime": "9:30 PM",
+              "rawStartTime": "21:30:00",
+              "rawEndTime": "21:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/believe-in-holiday-magic-fireworks/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "367492",
+          "name": "\"it's a small world\"",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8144,
+            "lng": -117.917782
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/its-a-small-world/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18237232",
+          "name": "\"it's a small world\" Holiday",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8144,
+            "lng": -117.917782
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/its-a-small-world-holiday/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18847498",
+          "name": "\"it's a small world\" Holiday Lighting",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81414244,
+            "lng": -117.9179174
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "5:00 PM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "17:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/its-a-small-world-holiday-lighting/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "3908469",
+          "name": "A Christmas Fantasy Parade",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.810504,
+            "lng": -117.918515
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment, Parades",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:45 PM",
+              "endTime": "12:45 PM",
+              "rawStartTime": "12:45:00",
+              "rawEndTime": "12:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:00 PM",
+              "endTime": "3:00 PM",
+              "rawStartTime": "15:00:00",
+              "rawEndTime": "15:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/christmas-fantasy-parade/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "411936760",
+          "name": "Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811325,
+            "lng": -117.920585
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:15 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:00 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "23:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/adventureland-treehouse/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "367495",
+          "name": "Alice in Wonderland",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8133130163,
+            "lng": -117.9182459414
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:15 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/alice-in-wonderland/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353291",
+          "name": "Astro Orbitor",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812108371,
+            "lng": -117.9181900145
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/astro-orbitor/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353293",
+          "name": "Autopia",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8124087477,
+            "lng": -117.9165033178
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/autopia/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353295",
+          "name": "Big Thunder Mountain Railroad",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8124773145,
+            "lng": -117.9203568914
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/big-thunder-mountain-railroad/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353301",
+          "name": "Buzz Lightyear Astro Blasters",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812204,
+            "lng": -117.917806
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/buzz-lightyear-astro-blasters/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353305",
+          "name": "Casey Jr. Circus Train",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8137301217,
+            "lng": -117.9191704019
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/casey-jr-circus-train/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "411848232",
+          "name": "CenTOONial Park",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.815085,
+            "lng": -117.918554
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/centoonial-park/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353337",
+          "name": "Chip 'n' Dale's GADGETcoaster",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.815296,
+            "lng": -117.919157
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Small Drops, Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/chip-n-dales-gadget-coaster/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353311",
+          "name": "Davy Crockett's Explorer Canoes",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8125062856,
+            "lng": -117.9221264816
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/davy-crocketts-explorer-canoes/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18299866",
+          "name": "Disney® Visa® Cardmember Star Wars Photo Opportunity",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812161,
+            "lng": -117.916799
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "2:00 PM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "14:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "http://disneyland.disney.go.com/entertainment/disneyland/visa-card-star-wars-character-experience/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353313",
+          "name": "Disneyland Monorail",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.809106,
+            "lng": -117.924613
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/disneyland-monorail/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353315",
+          "name": "Disneyland Railroad",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814823,
+            "lng": -117.918636
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "3:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "15:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/disneyland-railroad/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353321",
+          "name": "Donald's Duck Pond",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.815232,
+            "lng": -117.919019
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/donalds-duck-pond/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353323",
+          "name": "Dumbo the Flying Elephant",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8136094534,
+            "lng": -117.9188292111
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Slow Rides, Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "http://disneyland.disney.go.com/attractions/disneyland/dumbo-the-flying-elephant/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "401483",
+          "name": "Fantasmic!",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811687,
+            "lng": -117.921151
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Fireworks, Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 PM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "21:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:30 PM",
+              "endTime": "10:30 PM",
+              "rawStartTime": "22:30:00",
+              "rawEndTime": "22:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/fantasmic/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17315126",
+          "name": "Fantasy Faire",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812591,
+            "lng": -117.919379
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/fantasy-faire/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353327",
+          "name": "Finding Nemo Submarine Voyage",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812618,
+            "lng": -117.916947
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "http://disneyland.disney.go.com/attractions/disneyland/finding-nemo-submarine-voyage/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412107646",
+          "name": "Fire of the Rising Moons",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814816,
+            "lng": -117.921212
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:30 PM",
+              "endTime": "9:30 PM",
+              "rawStartTime": "21:30:00",
+              "rawEndTime": "21:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/fire-of-the-rising-moons-fireworks/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17448049",
+          "name": "Fireworks at Disneyland Park",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/fireworks/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19094413",
+          "name": "Fortune Tellers",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811237,
+            "lng": -117.919057
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/fortune-tellers/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353335",
+          "name": "Frontierland Shootin' Exposition",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8122300089,
+            "lng": -117.919855621
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/frontierland-shootin-exposition/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353343",
+          "name": "Goofy's How-to-Play Yard",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8151987474,
+            "lng": -117.9186858237
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/goofys-how-to-play-yard/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353461",
+          "name": "Great Moments with Mr. Lincoln",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.810265,
+            "lng": -117.918559
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/disneyland-story/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17552793",
+          "name": "Halloween Screams",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/halloween-screams/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353347",
+          "name": "Haunted Mansion",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811656,
+            "lng": -117.921873
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/haunted-mansion/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18249927",
+          "name": "Haunted Mansion Holiday",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811656,
+            "lng": -117.921873
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/haunted-mansion-holiday/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412272475",
+          "name": "Holiday Fun with Santa & Friends!",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814615,
+            "lng": -117.918825
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/fantasyland-theatre-holiday-fun/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18237368",
+          "name": "Hyperspace Mountain",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811548,
+            "lng": -117.917056
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/hyperspace-mountain/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353355",
+          "name": "Indiana Jones™ Adventure",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81130552,
+            "lng": -117.9203269
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/indiana-jones-adventure/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353363",
+          "name": "Jungle Cruise",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81144,
+            "lng": -117.920092
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/jungle-cruise/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412360763",
+          "name": "Key to Disneyland",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8151,
+            "lng": -117.918192
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/key-to-disneyland/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353365",
+          "name": "King Arthur Carrousel",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.813474,
+            "lng": -117.918974
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides, Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:45 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/king-arthur-carrousel/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353369",
+          "name": "Mad Tea Party",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8135273725,
+            "lng": -117.9184149206
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/mad-tea-party/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353371",
+          "name": "Main Street Cinema",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.810768,
+            "lng": -117.918887
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/main-street-cinema/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "393385",
+          "name": "Main Street Vehicles",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8102153073,
+            "lng": -117.9189620912
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/main-street-vehicles/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353375",
+          "name": "Mark Twain Riverboat",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8122772066,
+            "lng": -117.9204627872
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "5:40 PM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "17:40:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/mark-twain-riverboat/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353377",
+          "name": "Matterhorn Bobsleds",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.813453,
+            "lng": -117.91782
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/matterhorn-bobsleds/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18450741",
+          "name": "Meet Disney Characters During Halloween Time at Disneyland Park",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81043,
+            "lng": -117.918669
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/character-meet-halloween-time-characters/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18738682",
+          "name": "Meet Disney Princesses at Royal Hall",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812669,
+            "lng": -117.919419
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/character-meet-princesses-royal-hall/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "401524",
+          "name": "Meet Tinker Bell in Pixie Hollow",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8125,
+            "lng": -117.918174
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:40 AM",
+              "endTime": "9:00 AM",
+              "rawStartTime": "08:40:00",
+              "rawEndTime": "09:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "10:20 AM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "10:20:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:15 AM",
+              "endTime": "2:40 PM",
+              "rawStartTime": "11:15:00",
+              "rawEndTime": "14:40:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/pixie-hollow-tinkerbell-fairy-friends/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "411821333",
+          "name": "Mickey & Minnie's Runaway Railway",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.815507,
+            "lng": -117.91839
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/mickey-minnies-runaway-railway/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19193436",
+          "name": "Mickey's Mix Magic",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/mickeys-mix-magic/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19259687",
+          "name": "Mickey's Mix Magic with Fireworks",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": null,
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19193459",
+          "name": "Millennium Falcon: Smugglers Run",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814867,
+            "lng": -117.921379
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/millennium-falcon-smugglers-run/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353383",
+          "name": "Minnie's House",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.815524801,
+            "lng": -117.9189902544
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "7:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "19:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/minnies-house/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353389",
+          "name": "Mr. Toad's Wild Ride",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8133812161,
+            "lng": -117.9187763289
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/mr-toads-wild-ride/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412420542",
+          "name": "Opera House",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81029,
+            "lng": -117.918546
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "1:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "13:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/main-street-opera-house/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412287389",
+          "name": "Paint the Night",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81097757,
+            "lng": -117.9189609
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment, Parades",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/paint-the-night-parade/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353399",
+          "name": "Peter Pan's Flight",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8131949042,
+            "lng": -117.9188762605
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:15 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/peter-pans-flight/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353401",
+          "name": "Pinocchio's Daring Journey",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8132880704,
+            "lng": -117.9190900509
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/pinocchios-daring-journey/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353403",
+          "name": "Pirate's Lair on Tom Sawyer Island",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8116538616,
+            "lng": -117.921538353
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "4:15 PM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "16:15:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/pirates-lair-on-tom-sawyer-island/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353405",
+          "name": "Pirates of the Caribbean",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811387,
+            "lng": -117.920819
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/pirates-of-the-caribbean/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412110004",
+          "name": "Pixar Pals Playtime Party",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814704,
+            "lng": -117.918972
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/pixar-pals-playtime-party/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353421",
+          "name": "Roger Rabbit's Car Toon Spin",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.815204,
+            "lng": -117.918085
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/roger-rabbits-car-toon-spin/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353425",
+          "name": "Sailing Ship Columbia",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8122772066,
+            "lng": -117.9204627872
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Slow Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "11:00 AM",
+              "endTime": "3:30 PM",
+              "rawStartTime": "11:00:00",
+              "rawEndTime": "15:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/sailing-ship-columbia/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412349422",
+          "name": "Shadows of Memory: A Skywalker Saga",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814988,
+            "lng": -117.921242
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:25 PM",
+              "endTime": "8:25 PM",
+              "rawStartTime": "20:25:00",
+              "rawEndTime": "20:25:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "10:15 PM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "22:15:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/shadows-of-memory-skywalker-saga/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353427",
+          "name": "Sleeping Beauty Castle Walkthrough",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812912,
+            "lng": -117.919078
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/sleeping-beauty-castle-walkthrough/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353429",
+          "name": "Snow White's Enchanted Wish",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8131664471,
+            "lng": -117.9190614653
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "20:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/snow-whites-enchanted-wish/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353435",
+          "name": "Space Mountain",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811548,
+            "lng": -117.917056
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/space-mountain/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412362915",
+          "name": "Special MagicBand+ Interactions During the 70th Celebration",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812361,
+            "lng": -117.916583
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/original-attractions-quest/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353439",
+          "name": "Star Tours - The Adventures Continue",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811997,
+            "lng": -117.917978
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/star-tours/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19087113",
+          "name": "Star Wars: Datapad on Play Disney Parks Mobile App",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.813812,
+            "lng": -117.920849
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/star-wars-galaxys-edge-play-app/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19193461",
+          "name": "Star Wars: Rise of the Resistance",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.813859,
+            "lng": -117.923079
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Scary",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/star-wars-rise-of-the-resistance/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353443",
+          "name": "Storybook Land Canal Boats",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8136306683,
+            "lng": -117.9182008987
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Slow Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/storybook-land-canal-boats/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17346575",
+          "name": "Storytelling at Royal Theatre",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812495,
+            "lng": -117.919443
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:40 AM",
+              "endTime": "9:40 AM",
+              "rawStartTime": "09:40:00",
+              "rawEndTime": "09:40:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:45 AM",
+              "endTime": "10:45 AM",
+              "rawStartTime": "10:45:00",
+              "rawEndTime": "10:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 PM",
+              "endTime": "12:00 PM",
+              "rawStartTime": "12:00:00",
+              "rawEndTime": "12:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:50 PM",
+              "endTime": "1:50 PM",
+              "rawStartTime": "13:50:00",
+              "rawEndTime": "13:50:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:40 PM",
+              "endTime": "2:40 PM",
+              "rawStartTime": "14:40:00",
+              "rawEndTime": "14:40:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/storytelling-royal-theatre/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412343720",
+          "name": "Tapestry of Happiness",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814359,
+            "lng": -117.917926
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "6:30 PM",
+              "endTime": "6:30 PM",
+              "rawStartTime": "18:30:00",
+              "rawEndTime": "18:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 PM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "21:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:30 PM",
+              "endTime": "10:30 PM",
+              "rawStartTime": "22:30:00",
+              "rawEndTime": "22:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:30 PM",
+              "endTime": "11:30 PM",
+              "rawStartTime": "23:30:00",
+              "rawEndTime": "23:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/tapestry-of-happiness/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412333563",
+          "name": "The Celebrate Happy Cavalcade",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81097757,
+            "lng": -117.9189609
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment, Parades",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/celebrate-happy-cavalcade/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "401463",
+          "name": "The Dapper Dans",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.810308,
+            "lng": -117.918962
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:20 AM",
+              "endTime": "10:20 AM",
+              "rawStartTime": "10:20:00",
+              "rawEndTime": "10:20:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:10 AM",
+              "endTime": "11:10 AM",
+              "rawStartTime": "11:10:00",
+              "rawEndTime": "11:10:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:05 PM",
+              "endTime": "12:05 PM",
+              "rawStartTime": "12:05:00",
+              "rawEndTime": "12:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:30 PM",
+              "endTime": "1:30 PM",
+              "rawStartTime": "13:30:00",
+              "rawEndTime": "13:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:20 PM",
+              "endTime": "2:20 PM",
+              "rawStartTime": "14:20:00",
+              "rawEndTime": "14:20:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:10 PM",
+              "endTime": "4:10 PM",
+              "rawStartTime": "16:10:00",
+              "rawEndTime": "16:10:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/dapper-dans/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17734741",
+          "name": "The Disney Gallery",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.810265,
+            "lng": -117.918559
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "1:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "13:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/disney-gallery/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353449",
+          "name": "The Many Adventures of Winnie the Pooh",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812376,
+            "lng": -117.922632
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/many-adventures-of-winnie-the-pooh/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412062678",
+          "name": "Tiana's Bayou Adventure",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812245,
+            "lng": -117.922802
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Big Drops, Thrill Rides, Water Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/tianas-bayou-adventure/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412131321",
+          "name": "Together Forever - A Pixar Nighttime Spectacular",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/pixar-fest-together-forever/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412413688",
+          "name": "Walt Disney - A Magical Life",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.810265,
+            "lng": -117.918559
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "1:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "13:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/walt-disney-a-magical-life/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353325",
+          "name": "Walt Disney's Enchanted Tiki Room",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811829,
+            "lng": -117.919569
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Stage Shows",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "12:00 AM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "00:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disneyland/enchanted-tiki-room/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "15756384",
+          "name": "Wintertime Enchantment at Sleeping Beauty's Winter Castle",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81269609,
+            "lng": -117.9189626
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:00 PM",
+              "endTime": "7:00 PM",
+              "rawStartTime": "19:00:00",
+              "rawEndTime": "19:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/wintertime-enchantment-sleeping-beauty-castle/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "411813005",
+          "name": "Wondrous Journeys",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8123896,
+            "lng": -117.9189732
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Fireworks",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/wondrous-journeys/",
+          "description": "",
+          "status": "OPERATING"
+        }
+      ]
+    },
+    "californiaAdventure": {
+      "Other": [
+        {
+          "id": "412256248",
+          "name": "A Musical Christmas with Mariachi Alegría de Disneyland & Miguel!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807657,
+            "lng": -117.919083
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/musical-christmas-mariachi/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19534194",
+          "name": "Ancient Sanctum",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80649,
+            "lng": -117.918172
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/ancient-sanctum/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353289",
+          "name": "Animation Academy",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8075587653,
+            "lng": -117.9175029695
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "9:00 AM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "09:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "9:30 AM",
+              "endTime": "9:30 AM",
+              "rawStartTime": "09:30:00",
+              "rawEndTime": "09:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "10:00 AM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "10:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:30 AM",
+              "endTime": "10:30 AM",
+              "rawStartTime": "10:30:00",
+              "rawEndTime": "10:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:00 AM",
+              "endTime": "11:00 AM",
+              "rawStartTime": "11:00:00",
+              "rawEndTime": "11:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:30 AM",
+              "endTime": "11:30 AM",
+              "rawStartTime": "11:30:00",
+              "rawEndTime": "11:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 PM",
+              "endTime": "12:00 PM",
+              "rawStartTime": "12:00:00",
+              "rawEndTime": "12:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:30 PM",
+              "endTime": "12:30 PM",
+              "rawStartTime": "12:30:00",
+              "rawEndTime": "12:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:00 PM",
+              "endTime": "1:00 PM",
+              "rawStartTime": "13:00:00",
+              "rawEndTime": "13:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:30 PM",
+              "endTime": "1:30 PM",
+              "rawStartTime": "13:30:00",
+              "rawEndTime": "13:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:00 PM",
+              "endTime": "2:00 PM",
+              "rawStartTime": "14:00:00",
+              "rawEndTime": "14:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:30 PM",
+              "endTime": "2:30 PM",
+              "rawStartTime": "14:30:00",
+              "rawEndTime": "14:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:00 PM",
+              "endTime": "3:00 PM",
+              "rawStartTime": "15:00:00",
+              "rawEndTime": "15:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:30 PM",
+              "endTime": "3:30 PM",
+              "rawStartTime": "15:30:00",
+              "rawEndTime": "15:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:30 PM",
+              "endTime": "4:30 PM",
+              "rawStartTime": "16:30:00",
+              "rawEndTime": "16:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:00 PM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "17:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:30 PM",
+              "endTime": "5:30 PM",
+              "rawStartTime": "17:30:00",
+              "rawEndTime": "17:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:00 PM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "18:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:30 PM",
+              "endTime": "6:30 PM",
+              "rawStartTime": "18:30:00",
+              "rawEndTime": "18:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:00 PM",
+              "endTime": "7:00 PM",
+              "rawStartTime": "19:00:00",
+              "rawEndTime": "19:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 PM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "19:30:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 PM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "20:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:30 PM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "20:30:00",
+              "rawEndTime": "20:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/animation-academy/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17563885",
+          "name": "Anna & Elsa's Royal Welcome",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80755877,
+            "lng": -117.917503
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:45 AM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "09:45:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/character-meet-anna-and-elsa-frozen/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19534191",
+          "name": "Avengers Headquarters",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806589,
+            "lng": -117.917404
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/avengers-headquarters/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "411459995",
+          "name": "Better Together: A Pixar Pals Celebration!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80564654,
+            "lng": -117.9230089
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Parades",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/better-together/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17017242",
+          "name": "Buena Vista Street Holiday Tree Lighting",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80781,
+            "lng": -117.918845
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "4:50 PM",
+              "endTime": "4:50 PM",
+              "rawStartTime": "16:50:00",
+              "rawEndTime": "16:50:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/buena-vista-street-tree-lighting/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18685747",
+          "name": "Cookin' with the Jammin’ Chefs",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806115,
+            "lng": -117.920878
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/cookin-with-jammin-chefs/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "17595196",
+          "name": "Disney ¡Viva Navidad! Street Party",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805969,
+            "lng": -117.922919
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:10 PM",
+              "endTime": "12:10 PM",
+              "rawStartTime": "12:10:00",
+              "rawEndTime": "12:10:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:10 PM",
+              "endTime": "1:10 PM",
+              "rawStartTime": "13:10:00",
+              "rawEndTime": "13:10:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:10 PM",
+              "endTime": "2:10 PM",
+              "rawStartTime": "14:10:00",
+              "rawEndTime": "14:10:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:45 PM",
+              "endTime": "3:45 PM",
+              "rawStartTime": "15:45:00",
+              "rawEndTime": "15:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:45 PM",
+              "endTime": "4:45 PM",
+              "rawStartTime": "16:45:00",
+              "rawEndTime": "16:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:45 PM",
+              "endTime": "5:45 PM",
+              "rawStartTime": "17:45:00",
+              "rawEndTime": "17:45:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/viva-navidad-street-party/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412357973",
+          "name": "Disney Jr. Mickey Mouse Clubhouse Live!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8075887,
+            "lng": -117.9183444
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "10:00 AM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "10:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:00 AM",
+              "endTime": "11:00 AM",
+              "rawStartTime": "11:00:00",
+              "rawEndTime": "11:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 PM",
+              "endTime": "12:00 PM",
+              "rawStartTime": "12:00:00",
+              "rawEndTime": "12:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:45 PM",
+              "endTime": "1:45 PM",
+              "rawStartTime": "13:45:00",
+              "rawEndTime": "13:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:45 PM",
+              "endTime": "2:45 PM",
+              "rawStartTime": "14:45:00",
+              "rawEndTime": "14:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:45 PM",
+              "endTime": "3:45 PM",
+              "rawStartTime": "15:45:00",
+              "rawEndTime": "15:45:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/disney-jr-mickey-mouse-clubhouse-live/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412135407",
+          "name": "Disney® Visa® Cardmember Heroic Encounter",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.808194,
+            "lng": -117.917943
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "3:00 PM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "15:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/visa-card-super-hero-character-experience/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "422666",
+          "name": "Disney® Visa® Cardmember Photo Opportunity",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.808235,
+            "lng": -117.917961
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:30 AM",
+              "endTime": "1:30 PM",
+              "rawStartTime": "10:30:00",
+              "rawEndTime": "13:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "http://disneyland.disney.go.com/entertainment/disney-california-adventure/visa-card-character-experience/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412245371",
+          "name": "Festival of Holidays Entertainment Series",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807854,
+            "lng": -117.917317
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/festival-of-holidays-bands/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "16633170",
+          "name": "Five & Dime",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807657,
+            "lng": -117.919083
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:45 AM",
+              "endTime": "9:45 AM",
+              "rawStartTime": "09:45:00",
+              "rawEndTime": "09:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:45 AM",
+              "endTime": "10:45 AM",
+              "rawStartTime": "10:45:00",
+              "rawEndTime": "10:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:45 AM",
+              "endTime": "11:45 AM",
+              "rawStartTime": "11:45:00",
+              "rawEndTime": "11:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:15 PM",
+              "endTime": "1:15 PM",
+              "rawStartTime": "13:15:00",
+              "rawEndTime": "13:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:15 PM",
+              "endTime": "2:15 PM",
+              "rawStartTime": "14:15:00",
+              "rawEndTime": "14:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:15 PM",
+              "endTime": "3:15 PM",
+              "rawStartTime": "15:15:00",
+              "rawEndTime": "15:15:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/five-and-dime/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353339",
+          "name": "Games of Pixar Pier",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8048925714,
+            "lng": -117.9224220894
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/games-pixar-pier/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353341",
+          "name": "Golden Zephyr",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8060334617,
+            "lng": -117.9222742945
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/golden-zephyr/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "15822029",
+          "name": "Goofy's Sky School",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8063159054,
+            "lng": -117.922805411
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Small Drops, Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/goofys-sky-school/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353345",
+          "name": "Grizzly River Run",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807491905,
+            "lng": -117.9208812632
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Small Drops, Spinning, Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/grizzly-river-run/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353451",
+          "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8068702058,
+            "lng": -117.9171870344
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Big Drops, Dark, Loud",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/guardians-galaxy-mission-breakout/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18691239",
+          "name": "Guardians of the Galaxy: Awesome Dance Off!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806978,
+            "lng": -117.917055
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:00 PM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "17:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:00 PM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "18:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:15 PM",
+              "endTime": "7:15 PM",
+              "rawStartTime": "19:15:00",
+              "rawEndTime": "19:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:15 PM",
+              "endTime": "8:15 PM",
+              "rawStartTime": "20:15:00",
+              "rawEndTime": "20:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "9:15 PM",
+              "endTime": "9:15 PM",
+              "rawStartTime": "21:15:00",
+              "rawEndTime": "21:15:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/guardians-galaxy-dance/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18514990",
+          "name": "Holiday Toy Drummers",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806115,
+            "lng": -117.920878
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 AM",
+              "endTime": "10:15 AM",
+              "rawStartTime": "10:15:00",
+              "rawEndTime": "10:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:15 AM",
+              "endTime": "11:15 AM",
+              "rawStartTime": "11:15:00",
+              "rawEndTime": "11:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:15 PM",
+              "endTime": "12:15 PM",
+              "rawStartTime": "12:15:00",
+              "rawEndTime": "12:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:00 PM",
+              "endTime": "2:00 PM",
+              "rawStartTime": "14:00:00",
+              "rawEndTime": "14:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:00 PM",
+              "endTime": "3:00 PM",
+              "rawStartTime": "15:00:00",
+              "rawEndTime": "15:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/holiday-toy-drummers/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18614009",
+          "name": "Hurry Home – A Lunar New Year Celebration",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80564575,
+            "lng": -117.9214083
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/lunar-new-year-water-show/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353303",
+          "name": "Incredicoaster",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8046241652,
+            "lng": -117.9207961819
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Big Drops, Loud, Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/incredicoaster/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19285637",
+          "name": "Inside Out Emotional Whirlwind",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805154,
+            "lng": -117.922737
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/emotional-whirlwind/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353367",
+          "name": "Jessie's Critter Carousel",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.804635558,
+            "lng": -117.9211482245
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Slow Rides, Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/jessies-critter-carousel/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353361",
+          "name": "Jumpin' Jellyfish",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8061414361,
+            "lng": -117.92253033
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/jumpin-jellyfish/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18848246",
+          "name": "Luigi's Joy to the Whirl",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805534,
+            "lng": -117.918544
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Spinning, Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/luigis-joy-whirl/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18343088",
+          "name": "Luigi's Rollickin' Roadsters",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805534,
+            "lng": -117.918544
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Loud, Spinning, Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/luigis-rollickin-roadsters/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18848247",
+          "name": "Mater's Jingle Jamboree",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8062447301,
+            "lng": -117.9192481607
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/maters-jingle-jamboree/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "16514431",
+          "name": "Mater's Junkyard Jamboree",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8062447301,
+            "lng": -117.9192481607
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Thrill Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/maters-junkyard-jamboree/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19514854",
+          "name": "Meet Chef Goofy",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807889,
+            "lng": -117.917
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/meet-chef-goofy/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "401471",
+          "name": "Meet Disney Pals on Buena Vista Street",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80785,
+            "lng": -117.918943
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "9:00 AM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "09:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "10:00 AM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "10:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:25 AM",
+              "endTime": "11:25 AM",
+              "rawStartTime": "11:25:00",
+              "rawEndTime": "11:25:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:25 PM",
+              "endTime": "12:25 PM",
+              "rawStartTime": "12:25:00",
+              "rawEndTime": "12:25:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:20 PM",
+              "endTime": "1:20 PM",
+              "rawStartTime": "13:20:00",
+              "rawEndTime": "13:20:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:15 PM",
+              "endTime": "2:15 PM",
+              "rawStartTime": "14:15:00",
+              "rawEndTime": "14:15:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:00 PM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "17:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:30 PM",
+              "endTime": "5:30 PM",
+              "rawStartTime": "17:30:00",
+              "rawEndTime": "17:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:00 PM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "18:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:30 PM",
+              "endTime": "6:30 PM",
+              "rawStartTime": "18:30:00",
+              "rawEndTime": "18:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:00 PM",
+              "endTime": "7:00 PM",
+              "rawStartTime": "19:00:00",
+              "rawEndTime": "19:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 PM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "19:30:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 PM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "20:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:30 PM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "20:30:00",
+              "rawEndTime": "20:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 PM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "21:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "9:30 PM",
+              "endTime": "9:30 PM",
+              "rawStartTime": "21:30:00",
+              "rawEndTime": "21:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/disney-pals-on-buena-vista-street/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412072477",
+          "name": "Meet Meilin and Ming Lee from Turning Red",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806514,
+            "lng": -117.920974
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/character-meet-and-greet-turning-red/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19052131",
+          "name": "Meet Pixar Pals at Pixar Pier",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": null,
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:30 AM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "08:30:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/character-meet-pixar-pals-pixar-pier/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "16578447",
+          "name": "Meet the Residents of Radiator Springs in Cars Land",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805908,
+            "lng": -117.918787
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/character-meet-mater-mcqueen-cozy-cone-motel/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19299875",
+          "name": "Mickey's PhilharMagic",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80773,
+            "lng": -117.918041
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/mickeys-philharmagic/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412256218",
+          "name": "Mirabel's Gifts of the Season",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806154,
+            "lng": -117.922802
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/mirabels-gifts-of-the-season-show/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353387",
+          "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8081215045,
+            "lng": -117.9173246541
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/monsters-inc/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18373589",
+          "name": "Mulan's Lunar New Year Procession",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80564654,
+            "lng": -117.9230089
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Live Entertainment, Parades",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/mulans-lunar-new-year-procession/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "16642243",
+          "name": "Paradise Garden Bandstand",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8060787798,
+            "lng": -117.9232652884
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:35 PM",
+              "endTime": "12:35 PM",
+              "rawStartTime": "12:35:00",
+              "rawEndTime": "12:35:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:35 PM",
+              "endTime": "1:35 PM",
+              "rawStartTime": "13:35:00",
+              "rawEndTime": "13:35:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:35 PM",
+              "endTime": "2:35 PM",
+              "rawStartTime": "14:35:00",
+              "rawEndTime": "14:35:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:05 PM",
+              "endTime": "4:05 PM",
+              "rawStartTime": "16:05:00",
+              "rawEndTime": "16:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:05 PM",
+              "endTime": "5:05 PM",
+              "rawStartTime": "17:05:00",
+              "rawEndTime": "17:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:05 PM",
+              "endTime": "6:05 PM",
+              "rawStartTime": "18:05:00",
+              "rawEndTime": "18:05:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/paradise-garden-bandstand/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353379",
+          "name": "Pixar Pal-A-Round - Swinging",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8050267246,
+            "lng": -117.922378889
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/pixar-pal-a-round-swinging/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19009994",
+          "name": "Pixar Pal-A-Round – Non-Swinging",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8050267246,
+            "lng": -117.922378889
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/pixar-pal-a-round-non-swinging/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "16514416",
+          "name": "Radiator Springs Racers",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8051689198,
+            "lng": -117.9186152283
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/radiator-springs-racers/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353413",
+          "name": "Redwood Creek Challenge Trail",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8069726212,
+            "lng": -117.9213787615
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "7:45 PM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "19:45:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/redwood-creek-challenge-trail/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "15510732",
+          "name": "Silly Symphony Swings",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8056182721,
+            "lng": -117.9228962027
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "http://disneyland.disney.go.com/attractions/disney-california-adventure/silly-symphony-swings/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353431",
+          "name": "Soarin' Around the World",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8082495017,
+            "lng": -117.9200000105
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/soarin/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19324604",
+          "name": "Soarin' Over California",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8082495017,
+            "lng": -117.9200000105
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Small Drops",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/soarin-over-california/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353433",
+          "name": "Sorcerer's Workshop",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8075587653,
+            "lng": -117.9175029695
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/sorcerers-workshop/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353447",
+          "name": "The Bakery Tour",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8060995504,
+            "lng": -117.9196897202
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/bakery-tour/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "15575069",
+          "name": "The Little Mermaid - Ariel's Undersea Adventure",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80626,
+            "lng": -117.92108
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Slow Rides",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/little-mermaid-ariels-undersea-adventure/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412211848",
+          "name": "The Storytellers of Plaza de la Familia Celebrate The Musical World of Coco!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806154,
+            "lng": -117.922802
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Live Entertainment",
+          "duration": null,
+          "showtimes": [],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/a-musical-celebration-of-coco/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353453",
+          "name": "Toy Story Midway Mania!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.804645,
+            "lng": -117.921839
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/toy-story-mania/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "353457",
+          "name": "Turtle Talk with Crush",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8075587653,
+            "lng": -117.9175029695
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Character Experiences, Dark",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 AM",
+              "endTime": "9:00 AM",
+              "rawStartTime": "09:00:00",
+              "rawEndTime": "09:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "9:30 AM",
+              "endTime": "9:30 AM",
+              "rawStartTime": "09:30:00",
+              "rawEndTime": "09:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:00 AM",
+              "endTime": "10:00 AM",
+              "rawStartTime": "10:00:00",
+              "rawEndTime": "10:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:30 AM",
+              "endTime": "10:30 AM",
+              "rawStartTime": "10:30:00",
+              "rawEndTime": "10:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:00 AM",
+              "endTime": "11:00 AM",
+              "rawStartTime": "11:00:00",
+              "rawEndTime": "11:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "11:30 AM",
+              "endTime": "11:30 AM",
+              "rawStartTime": "11:30:00",
+              "rawEndTime": "11:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 PM",
+              "endTime": "12:00 PM",
+              "rawStartTime": "12:00:00",
+              "rawEndTime": "12:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "12:30 PM",
+              "endTime": "12:30 PM",
+              "rawStartTime": "12:30:00",
+              "rawEndTime": "12:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:00 PM",
+              "endTime": "1:00 PM",
+              "rawStartTime": "13:00:00",
+              "rawEndTime": "13:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "1:30 PM",
+              "endTime": "1:30 PM",
+              "rawStartTime": "13:30:00",
+              "rawEndTime": "13:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:00 PM",
+              "endTime": "2:00 PM",
+              "rawStartTime": "14:00:00",
+              "rawEndTime": "14:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "2:30 PM",
+              "endTime": "2:30 PM",
+              "rawStartTime": "14:30:00",
+              "rawEndTime": "14:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:00 PM",
+              "endTime": "3:00 PM",
+              "rawStartTime": "15:00:00",
+              "rawEndTime": "15:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "3:30 PM",
+              "endTime": "3:30 PM",
+              "rawStartTime": "15:30:00",
+              "rawEndTime": "15:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "4:30 PM",
+              "endTime": "4:30 PM",
+              "rawStartTime": "16:30:00",
+              "rawEndTime": "16:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:00 PM",
+              "endTime": "5:00 PM",
+              "rawStartTime": "17:00:00",
+              "rawEndTime": "17:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "5:30 PM",
+              "endTime": "5:30 PM",
+              "rawStartTime": "17:30:00",
+              "rawEndTime": "17:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:00 PM",
+              "endTime": "6:00 PM",
+              "rawStartTime": "18:00:00",
+              "rawEndTime": "18:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "6:30 PM",
+              "endTime": "6:30 PM",
+              "rawStartTime": "18:30:00",
+              "rawEndTime": "18:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:00 PM",
+              "endTime": "7:00 PM",
+              "rawStartTime": "19:00:00",
+              "rawEndTime": "19:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 PM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "19:30:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 PM",
+              "endTime": "8:00 PM",
+              "rawStartTime": "20:00:00",
+              "rawEndTime": "20:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:30 PM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "20:30:00",
+              "rawEndTime": "20:30:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/turtle-talk-with-crush/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "19531124",
+          "name": "WEB SLINGERS: A Spider-Man Adventure",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806651,
+            "lng": -117.918264
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "Dark, Loud, Spinning",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "7:30 AM",
+              "endTime": "8:00 AM",
+              "rawStartTime": "07:30:00",
+              "rawEndTime": "08:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "8:00 AM",
+              "endTime": "10:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "22:00:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/attractions/disney-california-adventure/web-slingers-spider-man-adventure/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "18492231",
+          "name": "World of Color - Season of Light",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80564575,
+            "lng": -117.9214083
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
+            }
+          ],
+          "isClosed": true,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/world-of-color-season-of-light/",
+          "description": "",
+          "status": "OPERATING"
+        },
+        {
+          "id": "412278312",
+          "name": "World of Color Happiness!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80564575,
+            "lng": -117.9214083
+          },
+          "showType": "Entertainment",
+          "entertainmentType": "",
+          "duration": null,
+          "showtimes": [
+            {
+              "date": "2025-12-07",
+              "startTime": "9:00 PM",
+              "endTime": "9:00 PM",
+              "rawStartTime": "21:00:00",
+              "rawEndTime": "21:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-07",
+              "startTime": "10:15 PM",
+              "endTime": "10:15 PM",
+              "rawStartTime": "22:15:00",
+              "rawEndTime": "22:15:00",
+              "isClosed": false
+            }
+          ],
+          "isClosed": false,
+          "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/world-of-color-happiness/ ",
+          "description": "",
+          "status": "OPERATING"
+        }
+      ]
+    }
+  },
+  "lastScrape": "2025-12-07T16:42:24.522Z"
+}
