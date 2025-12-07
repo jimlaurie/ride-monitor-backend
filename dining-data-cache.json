@@ -1,0 +1,2067 @@
+{
+  "cache": {
+    "disneyland": {
+      "Other": [
+        {
+          "id": "354441",
+          "name": "Alien Pizza Planet",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8117081571,
+            "lng": -117.9168865347
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "11:00 AM - 9:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/alien-pizza-planet/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "368519",
+          "name": "Bengal Barbecue",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811555,
+            "lng": -117.920299
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/bengal-barbecue/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354099",
+          "name": "Blue Bayou Restaurant",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811049,
+            "lng": -117.921126
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Reservations Accepted, Unique/Themed Dining",
+          "priceRange": "$$$",
+          "hours": "11:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/blue-bayou-restaurant/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "411845026",
+          "name": "Café Daisy",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81547,
+            "lng": -117.918682
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Mobile Orders",
+          "priceRange": null,
+          "hours": "11:00 AM - 7:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/cafe-daisy/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354117",
+          "name": "Cafe Orleans",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811205,
+            "lng": -117.921262
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/cafe-orleans/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354129",
+          "name": "Carnation Café",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8110402999,
+            "lng": -117.9190407415
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Breakfast, Reservations Accepted",
+          "priceRange": "$",
+          "hours": "8:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/carnation-cafe/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19268345",
+          "name": "Docking Bay 7 Food and Cargo",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814742,
+            "lng": -117.921432
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 7:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/docking-bay-7-food-and-cargo/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412264245",
+          "name": "Docking Bay 7 Food and Cargo Nighttime Gathering",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814742,
+            "lng": -117.921432
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Dining Events",
+          "priceRange": "$$$$",
+          "hours": "Hours vary",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/docking-bay-7-nighttime-gathering/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "369431",
+          "name": "Edelweiss Snacks",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8137108075,
+            "lng": -117.9177229106
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Mobile Orders",
+          "priceRange": "$",
+          "hours": "10:30 AM - 9:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/edelweiss-snacks/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "17920676",
+          "name": "Fantasmic! Dining Packages",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811205,
+            "lng": -117.921262
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Dining Events",
+          "priceRange": "$$$",
+          "hours": "Hours vary",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/fantasmic-dinner-packages/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18246297",
+          "name": "Galactic Grill",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812449,
+            "lng": -117.917296
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/galactic-grill/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354255",
+          "name": "Gibson Girl Ice Cream Parlor",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8111392429,
+            "lng": -117.9190407415
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "12:00 PM - 12:30 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/gibson-girl-ice-cream-parlor/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "411845225",
+          "name": "Good Boy! Grocers",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81533,
+            "lng": -117.918686
+          },
+          "serviceType": "Dining",
+          "cuisineType": "",
+          "priceRange": null,
+          "hours": "10:00 AM - 7:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/good-boy-grocers/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354273",
+          "name": "Harbour Galley",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8120188925,
+            "lng": -117.921936614
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/harbour-galley/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354303",
+          "name": "Hungry Bear Barbecue Jamboree",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812554,
+            "lng": -117.922435
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/hungry-bear-barbecue/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16363584",
+          "name": "Jolly Holiday Bakery Cafe",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8117051187,
+            "lng": -117.9193308949
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 12:15 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/jolly-holiday-bakery-cafe/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19268342",
+          "name": "Kat Saka's Kettle",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814495,
+            "lng": -117.921639
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "11:00 AM - 7:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/kat-sakas-kettle/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354348",
+          "name": "Little Red Wagon",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8114840141,
+            "lng": -117.9186756938
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": null,
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "17394022",
+          "name": "Market House",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81089,
+            "lng": -117.918875
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "7:30 AM - 8:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/market-house/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "17301557",
+          "name": "Maurice's Treats",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8124425633,
+            "lng": -117.9193067551
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 8:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/maurices-treats/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19267431",
+          "name": "Milk Stand",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814428,
+            "lng": -117.92069
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Mobile Orders",
+          "priceRange": "$",
+          "hours": "11:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/milk-stand/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354369",
+          "name": "Mint Julep Bar",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811176,
+            "lng": -117.921656
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/mint-julep-bar/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19268344",
+          "name": "Oga's Cantina at the Disneyland Resort",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814717,
+            "lng": -117.920943
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Bars & Lounges, Unique/Themed Dining",
+          "priceRange": "$",
+          "hours": "10:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/ogas-cantina/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354414",
+          "name": "Plaza Inn",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8117514713,
+            "lng": -117.918622265
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Breakfast, Buffet/Family Style",
+          "priceRange": "$$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/plaza-inn/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18994149",
+          "name": "Plaza Inn Dining Package",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8117514713,
+            "lng": -117.918622265
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Dining Events",
+          "priceRange": "$$$",
+          "hours": "Hours vary",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/plaza-inn-dining-package/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354438",
+          "name": "Rancho del Zocalo Restaurante",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.812463049,
+            "lng": -117.9197774827
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "11:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "http://disneyland.disney.go.com/dining/disneyland/rancho-del-zocalo-restaurante/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18674905",
+          "name": "Red Rose Taverne",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8134853951,
+            "lng": -117.9194486939
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/red-rose-taverne/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354444",
+          "name": "Refreshment Corner",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8114464994,
+            "lng": -117.9190483181
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "11:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/refreshment-corner/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354450",
+          "name": "River Belle Terrace",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8116150928,
+            "lng": -117.9205917872
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "10:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/river-belle-terrace/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19268333",
+          "name": "Ronto Roasters",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.814424,
+            "lng": -117.921484
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/ronto-roasters/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354456",
+          "name": "Royal Street Veranda",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8112279116,
+            "lng": -117.9209163877
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/royal-street-veranda/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354465",
+          "name": "Stage Door Café",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811889,
+            "lng": -117.9203
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "11:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/stage-door-cafe/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354498",
+          "name": "The Golden Horseshoe",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8120514864,
+            "lng": -117.9203117258
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/golden-horseshoe-restaurant/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19197204",
+          "name": "The Tropical Hideaway",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.81147,
+            "lng": -117.91955
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/tropical-hideaway/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "411936931",
+          "name": "Tiana’s Palace",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811266,
+            "lng": -117.921516
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/tianas-palace/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354516",
+          "name": "Tiki Juice Bar",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8118490285,
+            "lng": -117.9195771195
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/tiki-juice-bar/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18701288",
+          "name": "Tomorrowland Skyline Terrace",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811854,
+            "lng": -117.916857
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Dining Events, Reservations Accepted",
+          "priceRange": null,
+          "hours": "Hours vary",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/tomorrowland-skyline-terrace/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "426608",
+          "name": "Tropical Imports",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.811607,
+            "lng": -117.920095
+          },
+          "serviceType": "Dining",
+          "cuisineType": "",
+          "priceRange": "$",
+          "hours": "8:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/tropical-imports/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354228",
+          "name": "Troubadour Tavern",
+          "locationName": "Disneyland Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8145219838,
+            "lng": -117.9187180102
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 6:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disneyland/troubadour-tavern/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        }
+      ],
+      "Downtown Disney": [
+        {
+          "id": "19104269",
+          "name": "Ballast Point® Brewing Co.",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.809094,
+            "lng": -117.922738
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Casual Dining",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/ballast-point-brewing-company/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "15706677",
+          "name": "Beignets Expressed",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8090449773,
+            "lng": -117.9234579129
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 10:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/jazz-kitchen-beignets-expressed/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19269424",
+          "name": "Black Tap Craft Burgers & Shakes",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.809185,
+            "lng": -117.92279
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining",
+          "priceRange": "$",
+          "hours": "10:30 AM - 1:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/black-tap-craft-burgers/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19598969",
+          "name": "Blue Ribbon Corn Dog",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.809141,
+            "lng": -117.92419
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": null,
+          "hours": "9:00 AM - 1:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/blue-ribbon-corn-dogs/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412110513",
+          "name": "Céntrico",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808982,
+            "lng": -117.922977
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Reservations Accepted",
+          "priceRange": "$$$",
+          "hours": "10:30 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/centrico/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19306875",
+          "name": "CrazyShake™ Window by Black Tap",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.809231,
+            "lng": -117.923048
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining",
+          "priceRange": "$$",
+          "hours": "10:30 AM - 1:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/black-tap-crazyshake-counter/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412145658",
+          "name": "Din Tai Fung",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808569,
+            "lng": -117.925395
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining",
+          "priceRange": "$$$",
+          "hours": "9:30 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/din-tai-fung/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16488171",
+          "name": "Earl of Sandwich®",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.80942,
+            "lng": -117.92518
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Breakfast, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/earl-of-sandwich/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412240282",
+          "name": "GG's Chicken Shop",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.80874,
+            "lng": -117.9246
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Casual Dining, Quick Service",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/ggs-chicken-shop/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354321",
+          "name": "Jamba®",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8086291875,
+            "lng": -117.9222433877
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "7:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/jamba/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354435",
+          "name": "Jazz Kitchen Coastal Grill & Patio",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8090491312,
+            "lng": -117.9235986239
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 10:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/jazz-kitchen-coastal-grill-patio/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18584293",
+          "name": "Kayla's Cake",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808727,
+            "lng": -117.921589
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": null,
+          "hours": "10:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/kaylas-cake/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354378",
+          "name": "Naples Ristorante e Bar",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808879,
+            "lng": -117.922094
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "http://disneyland.disney.go.com/dining/downtown-disney-district/naples-ristorante-e-bar/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354381",
+          "name": "Napolini Pizzeria",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808897,
+            "lng": -117.922211
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/napolini-pizzeria/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412240316",
+          "name": "Parkside Market Coffee",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.80882,
+            "lng": -117.92464
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Breakfast, Casual Dining",
+          "priceRange": "$",
+          "hours": "8:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/parkside-market-coffee/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412110504",
+          "name": "Paseo",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8089268,
+            "lng": -117.9228063
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Reservations Accepted",
+          "priceRange": "$$$",
+          "hours": "4:00 PM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/paseo/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "411896782",
+          "name": "Pizza Counter",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808842,
+            "lng": -117.920255
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Casual Dining, Quick Service",
+          "priceRange": null,
+          "hours": "Closed",
+          "isClosed": true,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/the-pizza-counter/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19139055",
+          "name": "Salt & Straw",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8090006404,
+            "lng": -117.9224902544
+          },
+          "serviceType": "Dining",
+          "cuisineType": "",
+          "priceRange": "$",
+          "hours": "10:00 AM - 12:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/salt-and-straw/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412236444",
+          "name": "Seoul Sister",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.80866,
+            "lng": -117.92464
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Casual Dining, Quick Service",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/seoul-sister/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18735825",
+          "name": "Splitsville Luxury Lanes™ – Dining",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.809328,
+            "lng": -117.923232
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Reservations Accepted, Unique/Themed Dining",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/splitsville-restaurant/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "17759035",
+          "name": "Starbucks®",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8086367418,
+            "lng": -117.9218240082
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 7:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/starbucks-coffee/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412110450",
+          "name": "Tiendita",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808904,
+            "lng": -117.922936
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining",
+          "priceRange": null,
+          "hours": "8:00 AM - 1:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/tiendita/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "412267575",
+          "name": "Vista Parkside Market",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.80871,
+            "lng": -117.92473
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 11:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/vista-parkside-market/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354546",
+          "name": "Wetzel's Pretzels",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.8091202682,
+            "lng": -117.9226147374
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 1:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/wetzels-pretzels/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "17384492",
+          "name": "Wetzel's Pretzels Cart",
+          "locationName": "Downtown Disney District",
+          "land": "Downtown Disney",
+          "coordinates": {
+            "lat": 33.808848,
+            "lng": -117.920733
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": null,
+          "hours": "9:00 AM - 1:00 AM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/downtown-disney-district/wetzels-pretzels-cart/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        }
+      ]
+    },
+    "californiaAdventure": {
+      "Other": [
+        {
+          "id": "354135",
+          "name": "Adorable Snowman Frosted Treats",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8051566775,
+            "lng": -117.9204788804
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "11:00 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/adorable-snowman-frosted-treats/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354396",
+          "name": "Angry Dogs",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.804911,
+            "lng": -117.922135
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/angry-dogs/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "411972544",
+          "name": "Aunt Cass Café",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8058566014,
+            "lng": -117.9200660233
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": null,
+          "hours": "10:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/aunt-cass-cafe/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354084",
+          "name": "Award Wieners",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807735,
+            "lng": -117.918127
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/award-wieners/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16032494",
+          "name": "Bayside Brews",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8058437811,
+            "lng": -117.9228553176
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/bayside-brews/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16032493",
+          "name": "Boardwalk Pizza & Pasta",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8057925204,
+            "lng": -117.9232147336
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "11:30 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/boardwalk-pizza-pasta/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354123",
+          "name": "Cappuccino Cart",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806019,
+            "lng": -117.920722
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Mobile Orders",
+          "priceRange": "$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/cappuccino-cart/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16588263",
+          "name": "Carthay Circle Lounge",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807494,
+            "lng": -117.919021
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Reservations Accepted",
+          "priceRange": "$",
+          "hours": "11:00 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/carthay-circle-lounge/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16515009",
+          "name": "Carthay Circle Restaurant",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807494,
+            "lng": -117.919021
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Reservations Accepted, Fine/Signature Dining",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/carthay-circle-restaurant/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16513928",
+          "name": "Clarabelle's Hand-Scooped Ice Cream",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807958,
+            "lng": -117.9191776264
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "1:00 PM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/clarabelles-hand-scooped-ice-cream/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354195",
+          "name": "Cocina Cucamonga Mexican Grill",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805545,
+            "lng": -117.920195
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/cocina-cucamonga-mexican-grill/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354207",
+          "name": "Corn Dog Castle",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8063363272,
+            "lng": -117.9224435985
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "9:30 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/corn-dog-castle/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16514114",
+          "name": "Cozy Cone Motel",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8059658542,
+            "lng": -117.9186623791
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/cozy-cone-motel/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "424962",
+          "name": "Fairfax Market",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8077209975,
+            "lng": -117.9174190847
+          },
+          "serviceType": "Dining",
+          "cuisineType": "",
+          "priceRange": "$",
+          "hours": "9:00 AM - 5:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/fairfax-fruit-market/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18384059",
+          "name": "Festival Marketplaces at the Disney California Adventure Food & Wine Festival",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.808642,
+            "lng": -117.918956
+          },
+          "serviceType": "Dining",
+          "cuisineType": "",
+          "priceRange": "$",
+          "hours": "Closed",
+          "isClosed": true,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/food-and-wine-festival-marketplaces/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18515597",
+          "name": "Festive Food Marketplace",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806122,
+            "lng": -117.9202
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": null,
+          "hours": "11:30 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/festive-foods-marketplaces/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16513886",
+          "name": "Fiddler, Fifer & Practical Cafe",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8078250918,
+            "lng": -117.91936303
+          },
+          "serviceType": "Quick Service, Table Service",
+          "cuisineType": "Breakfast, Quick Service",
+          "priceRange": "$",
+          "hours": "7:30 AM - 10:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/fiddler-fifer-and-practical-cafe/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16505450",
+          "name": "Fillmore's Taste-In",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8061842526,
+            "lng": -117.9194517521
+          },
+          "serviceType": "Dining",
+          "cuisineType": "",
+          "priceRange": "$",
+          "hours": "9:00 AM - 5:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/fillmores-taste-in/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16486843",
+          "name": "Flo's V8 Cafe",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8055498861,
+            "lng": -117.9189880233
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/flos-v8-cafe/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16514168",
+          "name": "Ghirardelli® Soda Fountain and Chocolate Shop",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80599,
+            "lng": -117.919614
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/ghirardelli-soda-fountain-and-chocolate-shop/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18409951",
+          "name": "Hollywood Lounge",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.808119,
+            "lng": -117.917074
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Bars & Lounges, Mobile Orders",
+          "priceRange": "$",
+          "hours": "9:30 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/hollywood-lounge/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19028067",
+          "name": "Jack-Jack Cookie Num Nums",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.804492,
+            "lng": -117.92088
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/jack-jack-cookie-num-nums/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19013078",
+          "name": "Lamplight Lounge",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8053994053,
+            "lng": -117.9209410699
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "1:30 PM - 8:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/lamplight-lounge/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19629820",
+          "name": "Lamplight Lounge - Boardwalk Dining",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8053994053,
+            "lng": -117.9209410699
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "11:30 AM - 8:30 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/lamplight-lounge-boardwalk-dining/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "368932",
+          "name": "Lucky Fortune Cookery",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8057921835,
+            "lng": -117.9198476908
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "http://disneyland.disney.go.com/dining/disney-california-adventure/lucky-fortune-cookery/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18606212",
+          "name": "Lunar New Year Marketplaces",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806087,
+            "lng": -117.921422
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "Closed",
+          "isClosed": true,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/lunar-new-year-food-marketplaces/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "15527906",
+          "name": "Magic Key Terrace - Magic Key Holder Dining",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806621,
+            "lng": -117.919866
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Reservations Accepted",
+          "priceRange": "$",
+          "hours": "11:00 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/magic-key-terrace/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "368928",
+          "name": "Mendocino Terrace",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806546,
+            "lng": -117.919842
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Bars & Lounges, Mobile Orders",
+          "priceRange": "$",
+          "hours": "11:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/mendocino-terrace/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "16032481",
+          "name": "Paradise Garden Grill",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8061043985,
+            "lng": -117.9233857988
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "12:00 PM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/paradise-garden-grill/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "411947320",
+          "name": "Port of San Fransokyo Cervecería",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805683,
+            "lng": -117.920311
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Mobile Orders",
+          "priceRange": "$",
+          "hours": "9:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/port-of-san-fransokyo-cerveceria/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354405",
+          "name": "Poultry Palace",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8047427823,
+            "lng": -117.9214174892
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/poultry-palace/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19624438",
+          "name": "Pym Tasting Lab",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806723,
+            "lng": -117.917516
+          },
+          "serviceType": "Dining",
+          "cuisineType": "Bars & Lounges, Mobile Orders",
+          "priceRange": "$",
+          "hours": "9:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/pym-tasting-lab/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19530853",
+          "name": "Pym Test Kitchen",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806726,
+            "lng": -117.917696
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/pym-test-kitchen/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354447",
+          "name": "Rita's Turbine Blenders",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.805794,
+            "lng": -117.919981
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:00 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/ritas-turbine-blenders/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354462",
+          "name": "Schmoozies!",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807759,
+            "lng": -117.917651
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "7:30 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/schmoozies-smoothies/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354171",
+          "name": "Señor Buzz Churros",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.804736,
+            "lng": -117.921597
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/senor-buzz-churros/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19624439",
+          "name": "Shawarma Palace",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80653,
+            "lng": -117.918023
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/shawarma-palace/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19436152",
+          "name": "Sip and Savor Pass",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.808642,
+            "lng": -117.918956
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": null,
+          "hours": "Hours vary",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/sip-and-savor/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354483",
+          "name": "Smokejumpers Grill",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8079285397,
+            "lng": -117.9196943785
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "8:00 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/smokejumpers-grill/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "368880",
+          "name": "Sonoma Terrace",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.8063931592,
+            "lng": -117.9203394055
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Bars & Lounges, Mobile Orders",
+          "priceRange": "$",
+          "hours": "11:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/sonoma-terrace/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354477",
+          "name": "Studio Catering Co.",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807889,
+            "lng": -117.916958
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Mobile Orders, Quick Service",
+          "priceRange": "$",
+          "hours": "10:30 AM - 9:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/studio-catering-co/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "19624444",
+          "name": "Terran Treats",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.807108,
+            "lng": -117.916978
+          },
+          "serviceType": "Quick Service",
+          "cuisineType": "Quick Service",
+          "priceRange": "$",
+          "hours": "9:00 AM - 10:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/terran-treats/",
+          "mobileOrder": false,
+          "acceptsReservations": false,
+          "status": "OPERATING"
+        },
+        {
+          "id": "354555",
+          "name": "Wine Country Trattoria",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.806478,
+            "lng": -117.919877
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Casual Dining, Reservations Accepted",
+          "priceRange": "$$",
+          "hours": "11:00 AM - 8:00 PM",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/wine-country-trattoria/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        },
+        {
+          "id": "18090211",
+          "name": "World of Color Dessert Party",
+          "locationName": "Disney California Adventure Park",
+          "land": "Other",
+          "coordinates": {
+            "lat": 33.80595523439845,
+            "lng": -117.92142913592926
+          },
+          "serviceType": "Table Service",
+          "cuisineType": "Dining Events, Reservations Accepted",
+          "priceRange": "$$$$",
+          "hours": "Hours vary",
+          "isClosed": false,
+          "menuLink": "https://disneyland.disney.go.com/dining/disney-california-adventure/world-of-color-dessert-party/",
+          "mobileOrder": false,
+          "acceptsReservations": true,
+          "status": "OPERATING"
+        }
+      ]
+    }
+  },
+  "lastScrape": "2025-12-06T18:58:03.724Z"
+}

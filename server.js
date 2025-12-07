@@ -3,6 +3,11 @@ const axios = require('axios');
 const cors = require('cors');
 const cron = require('node-cron');
 const { Expo } = require('expo-server-sdk');
+//const disneyDiningService = require('./disneyDiningService');  // ADD THIS
+const hybridDiningService = require('./hybridDiningService');
+const simplifiedDiningService = require('./simplifiedDiningService');
+const diningService = require('./simplifiedDiningScraper');
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -698,6 +703,48 @@ app.get('/api/parks/:parkId/restaurants', (req, res) => {
   });
 });
 
+// NEW DISNEY DINING ENDPOINT - ADD THIS
+//app.get('/api/parks/:parkId/disney-dining', (req, res) => {
+//  try {
+//    const { parkId } = req.params;
+//    const data = disneyDiningService.getCachedData();
+//
+//    const restaurants = parkId === 'disneyland'
+//      ? data.disneyland
+//      : data.californiaAdventure;
+//
+//    res.json({
+//      restaurants,
+//      lastUpdate: disneyDiningService.lastUpdate,
+//      source: 'Disney Official API'
+//    });
+//  } catch (error) {
+//    console.error('Error getting Disney dining:', error);
+//    res.status(500).json({ error: 'Failed to get dining data' });
+//  }
+//});
+
+// Update the endpoint
+app.get('/api/parks/:parkId/enhanced-dining', (req, res) => {
+  try {
+    const { parkId } = req.params;
+    const data = hybridDiningService.getCachedData();
+    
+    const restaurants = parkId === 'disneyland'
+      ? data.disneyland
+      : data.californiaAdventure;
+    
+    res.json({
+      restaurants,
+      lastUpdate: hybridDiningService.lastUpdate,
+      source: 'Hybrid (ThemeParks.wiki + Enhanced Scraping)'
+    });
+  } catch (error) {
+    console.error('Error getting enhanced dining:', error);
+    res.status(500).json({ error: 'Failed to get dining data' });
+  }
+});
+
 // Get rides with Lightning Lane
 app.get('/api/parks/lightning-lane-rides', (req, res) => {
   const ridesWithLL = [];
@@ -1084,12 +1131,46 @@ app.post('/api/debug/check-notifications', async (req, res) => {
   }
 });
 
+// Disney Dining Endpoint - Simplified Data
+app.get('/api/parks/:parkId/dining', (req, res) => {
+  try {
+    const { parkId } = req.params;
+    const data = diningService.getCachedData();
+    
+    const restaurants = parkId === 'disneyland'
+      ? data.disneyland
+      : data.californiaAdventure;
+    
+    res.json({
+      restaurants,
+      lastScrape: diningService.lastScrape,
+      source: 'Disney Official API (via Puppeteer)'
+    });
+  } catch (error) {
+    console.error('Error getting dining data:', error);
+    res.status(500).json({ error: 'Failed to get dining data' });
+  }
+});
+
 /**
  * Initialize and start server
  */
 async function startServer() {
   console.log('Performing initial data fetch...');
   await updateParkDataCache();
+    
+// Initialize hybrid dining service
+    console.log('Fetching Disney dining data...');
+    await diningService.scrapeDiningData();
+    
+// Fetch Disney dining data on startup
+//    console.log('Fetching Disney dining data...');
+//    try {
+//      await disneyDiningService.fetchDiningForDate();
+//      console.log('✅ Disney dining data loaded');
+//    } catch (error) {
+//      console.error('❌ Failed to load Disney dining data:', error);
+//    }
 
   // Schedule park data updates every 1 minute
   cron.schedule('*/1 * * * *', () => {
@@ -1107,6 +1188,22 @@ async function startServer() {
   }, {
     timezone: 'America/Los_Angeles'
   });
+    
+    // Update Disney dining data daily at 2 AM PST
+    cron.schedule('0 2 * * *', () => {
+      console.log('Daily Disney dining data refresh triggered');
+      diningService.scrapeDiningData();
+    }, {
+      timezone: 'America/Los_Angeles'
+    });
+    
+// Update Disney dining data daily at 2 AM PST
+//    cron.schedule('0 2 * * *', () => {
+//      console.log('Daily Disney dining data refresh triggered');
+//      disneyDiningService.fetchDiningForDate();
+//    }, {
+//      timezone: 'America/Los_Angeles'
+//    });
 
   app.listen(PORT, () => {
     console.log(`

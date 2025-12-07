@@ -1,0 +1,271 @@
+{
+  "enhancedData": {
+    "disneyland": {
+      "Other": [
+        {
+          "id": "354117",
+          "name": "Cafe Orleans",
+          "type": "Table Service",
+          "priceRange": "$$$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$35"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$35"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disneyland/cafe-orleans/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "16363584",
+          "name": "Jolly Holiday Bakery Cafe",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disneyland/jolly-holiday-bakery-cafe/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "426608",
+          "name": "Tropical Imports",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disneyland/tropical-imports/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "354369",
+          "name": "Mint Julep Bar",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disneyland/mint-julep-bar/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "368519",
+          "name": "Bengal Barbecue",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disneyland/bengal-barbecue/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        }
+      ]
+    },
+    "californiaAdventure": {
+      "Other": [
+        {
+          "id": "368928",
+          "name": "Mendocino Terrace",
+          "type": "Table Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/mendocino-terrace/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "411972544",
+          "name": "Aunt Cass Café",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/aunt-cass-cafe/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "354447",
+          "name": "Rita's Turbine Blenders",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/ritas-turbine-blenders/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "354207",
+          "name": "Corn Dog Castle",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/corn-dog-castle/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "19624439",
+          "name": "Shawarma Palace",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/shawarma-palace/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "354084",
+          "name": "Award Wieners",
+          "type": "Quick Service, Table Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/award-wieners/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "19624438",
+          "name": "Pym Tasting Lab",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/pym-tasting-lab/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        },
+        {
+          "id": "368880",
+          "name": "Sonoma Terrace",
+          "type": "Quick Service",
+          "priceRange": "$",
+          "menuItems": [
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            },
+            {
+              "name": "Meal Pricing",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "url": "/dining/disney-california-adventure/sonoma-terrace/",
+          "enhanced": true,
+          "scrapedAt": "2025-11-14T23:10:04.863Z"
+        }
+      ]
+    }
+  },
+  "lastScrape": "2025-11-14T23:10:04.863Z"
+}

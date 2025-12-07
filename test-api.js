@@ -6,7 +6,7 @@
 const axios = require('axios');
 
 // Change this to your backend URL
-const API_BASE_URL = process.env.API_URL || 'http://localhost:3000';
+const API_BASE_URL = process.env.API_URL || 'https://rideguide-55846ba76982.herokuapp.com';
 
 const colors = {
   green: '\x1b[32m',
