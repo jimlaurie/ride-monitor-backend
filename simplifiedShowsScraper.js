@@ -1,5 +1,5 @@
 // simplifiedShowsScraper.js
-cconst puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer-core');
 const chromium = require('@sparticuz/chromium');
 const fs = require('fs').promises;
 
