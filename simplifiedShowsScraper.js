@@ -113,7 +113,8 @@ class SimplifiedShowsScraper {
       console.error('❌ Puppeteer shows scraping error:', error.message);
       if (browser) {
         try {
-          await browser.close();
+//          await browser.close();
+            browser.close().catch(() => {});
         } catch (e) {
           // Ignore close error
         }

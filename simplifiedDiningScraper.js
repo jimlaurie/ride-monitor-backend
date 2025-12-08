@@ -113,7 +113,8 @@ class SimplifiedDiningScraper {
       console.error('❌ Puppeteer scraping error:', error.message);
       if (browser) {
         try {
-          await browser.close();
+ //         await browser.close();
+            browser.close().catch(() => {});
         } catch (e) {
           // Ignore close error
         }
