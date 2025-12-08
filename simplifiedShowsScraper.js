@@ -1,12 +1,13 @@
 // simplifiedShowsScraper.js
-const puppeteer = require('puppeteer');
+cconst puppeteer = require('puppeteer-core');
+const chromium = require('@sparticuz/chromium');
 const fs = require('fs').promises;
 
-// Find Chrome on different platforms
-function findChrome() {
+// Get Chrome executable path
+async function getChromePath() {
   if (process.env.DYNO) {
-    // On Heroku - let Puppeteer find it automatically
-    return undefined;
+    // On Heroku - use bundled Chromium
+    return await chromium.executablePath();
   }
   // On local Mac
   return '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
@@ -41,13 +42,15 @@ class SimplifiedShowsScraper {
         ]
       };
 
-      const chromePath = findChrome();
-      if (chromePath) {
-        launchOptions.executablePath = chromePath;
-      }
+        launchOptions.executablePath = await getChromePath();
+        
+        // Add Chromium args for Heroku
+        if (process.env.DYNO) {
+          launchOptions.args.push(...chromium.args);
+        }
 
-      browser = await puppeteer.launch(launchOptions);
-
+        browser = await puppeteer.launch(launchOptions);
+        
       const page = await browser.newPage();
       
       await page.setViewport({ width: 1920, height: 1080 });
