@@ -19,19 +19,38 @@ class SimplifiedDiningScraper {
     console.log('🎭 Starting Puppeteer dining scraper...');
     
     let browser;
-    try {
-      browser = await puppeteer.launch({
+//    try {
+//      browser = await puppeteer.launch({
+//        headless: 'new',
+//          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+//          args: [
+//          '--no-sandbox',
+//          '--disable-setuid-sandbox',
+//          '--disable-dev-shm-usage',
+//          '--disable-gpu',
+//          '--disable-http2' // This fixes ERR_HTTP2_PROTOCOL_ERROR
+//        ]
+//      });
+      const launchOptions = {
         headless: 'new',
-          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-          args: [
+        args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
           '--disable-dev-shm-usage',
           '--disable-gpu',
-          '--disable-http2' // This fixes ERR_HTTP2_PROTOCOL_ERROR
+          '--disable-http2'
         ]
-      });
+      };
 
+      // On Heroku, let Puppeteer find Chrome automatically
+      // On local Mac, use installed Chrome
+      if (!process.env.DYNO) {
+        // Running locally on Mac
+        launchOptions.executablePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+      }
+
+      browser = await puppeteer.launch(launchOptions);
+      
       const page = await browser.newPage();
       
       // Set a more realistic viewport and user agent

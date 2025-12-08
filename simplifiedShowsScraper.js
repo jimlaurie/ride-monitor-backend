@@ -19,10 +19,20 @@ class SimplifiedShowsScraper {
     console.log('🎭 Starting Puppeteer shows scraper...');
     
     let browser;
-    try {
-      browser = await puppeteer.launch({
+//    try {
+//      browser = await puppeteer.launch({
+//        headless: 'new',
+//          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+//        args: [
+//          '--no-sandbox',
+//          '--disable-setuid-sandbox',
+//          '--disable-dev-shm-usage',
+//          '--disable-gpu',
+//          '--disable-http2'
+//        ]
+//      });
+      const launchOptions = {
         headless: 'new',
-          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
@@ -30,8 +40,17 @@ class SimplifiedShowsScraper {
           '--disable-gpu',
           '--disable-http2'
         ]
-      });
+      };
 
+      // On Heroku, let Puppeteer find Chrome automatically
+      // On local Mac, use installed Chrome
+      if (!process.env.DYNO) {
+        // Running locally on Mac
+        launchOptions.executablePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+      }
+
+      browser = await puppeteer.launch(launchOptions);
+      
       const page = await browser.newPage();
       
       await page.setViewport({ width: 1920, height: 1080 });
