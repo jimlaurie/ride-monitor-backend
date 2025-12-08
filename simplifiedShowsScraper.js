@@ -77,7 +77,7 @@ class SimplifiedShowsScraper {
 
       await page.goto('https://disneyland.disney.go.com/entertainment/', {
         waitUntil: 'networkidle0',
-        timeout: 45000
+        timeout: 90000
       });
 
       await this.sleep(5000);

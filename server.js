@@ -1176,23 +1176,18 @@ app.get('/api/parks/:parkId/shows', (req, res) => {
 async function startServer() {
   console.log('Performing initial data fetch...');
   await updateParkDataCache();
-    
-// Initialize hybrid dining service
-    console.log('Fetching Disney dining data...');
-    await diningService.scrapeDiningData();
-    
-// Fetch Disney dining data on startup
-//    console.log('Fetching Disney dining data...');
-//    try {
-//      await disneyDiningService.fetchDiningForDate();
-//      console.log('✅ Disney dining data loaded');
-//    } catch (error) {
-//      console.error('❌ Failed to load Disney dining data:', error);
-//    }
-    
-    // Fetch Disney shows data on startup - ADD THIS
-    console.log('Fetching Disney shows data...');
-    await showsService.scrapeShowsData();
+  
+  // Fetch Disney dining data in background (don't block startup)
+  console.log('Starting Disney dining data scraper in background...');
+  diningService.scrapeDiningData().catch(err => {
+    console.error('Dining scraper error:', err);
+  });
+  
+  // Fetch Disney shows data in background (don't block startup)
+  console.log('Starting Disney shows data scraper in background...');
+  showsService.scrapeShowsData().catch(err => {
+    console.error('Shows scraper error:', err);
+  });
     
   // Schedule park data updates every 1 minute
   cron.schedule('*/1 * * * *', () => {
