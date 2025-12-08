@@ -2,16 +2,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 
-// Find Chrome on different platforms
-function findChrome() {
-  if (process.env.DYNO) {
-    // On Heroku - let Puppeteer find it automatically
-    return undefined;
-  }
-  // On local Mac
-  return '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
-}
-
 class SimplifiedShowsScraper {
   constructor() {
     this.cache = {
@@ -29,7 +19,18 @@ class SimplifiedShowsScraper {
     console.log('🎭 Starting Puppeteer shows scraper...');
     
     let browser;
-    try {
+//    try {
+//      browser = await puppeteer.launch({
+//        headless: 'new',
+//          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+//        args: [
+//          '--no-sandbox',
+//          '--disable-setuid-sandbox',
+//          '--disable-dev-shm-usage',
+//          '--disable-gpu',
+//          '--disable-http2'
+//        ]
+//      });
       const launchOptions = {
         headless: 'new',
         args: [
@@ -41,13 +42,15 @@ class SimplifiedShowsScraper {
         ]
       };
 
-      const chromePath = findChrome();
-      if (chromePath) {
-        launchOptions.executablePath = chromePath;
+      // On Heroku, let Puppeteer find Chrome automatically
+      // On local Mac, use installed Chrome
+      if (!process.env.DYNO) {
+        // Running locally on Mac
+        launchOptions.executablePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
       }
 
       browser = await puppeteer.launch(launchOptions);
-
+      
       const page = await browser.newPage();
       
       await page.setViewport({ width: 1920, height: 1080 });
@@ -55,10 +58,12 @@ class SimplifiedShowsScraper {
 
       console.log('📄 Loading Disney entertainment page...');
       
+      // Capture API responses
       let showsData = null;
       
       page.on('response', async (response) => {
         const url = response.url();
+        // Look for entertainment/shows API endpoint
         if (url.includes('finder/api') && url.includes('entertainment')) {
           try {
             const data = await response.json();
@@ -72,15 +77,18 @@ class SimplifiedShowsScraper {
         }
       });
 
+      // Navigate to entertainment page
       await page.goto('https://disneyland.disney.go.com/entertainment/', {
         waitUntil: 'networkidle0',
         timeout: 45000
       });
 
+      // Wait for API calls to complete
       await this.sleep(5000);
 
-      await browser.close();
-
+//      await browser.close();
+      browser.close().catch(() => {});
+      
       if (!showsData || showsData.length === 0) {
         console.log('⚠️  No shows data captured, loading from cache...');
         return await this.loadFromFile();
@@ -88,9 +96,11 @@ class SimplifiedShowsScraper {
 
       console.log(`🎭 Processing ${showsData.length} shows...`);
 
+      // Process the data
       this.cache = this.organizeShows(showsData);
       this.lastScrape = new Date();
 
+      // Save to file
       await this.saveToFile();
 
       console.log('✅ Shows data scraping complete!');
@@ -102,9 +112,15 @@ class SimplifiedShowsScraper {
     } catch (error) {
       console.error('❌ Puppeteer shows scraping error:', error.message);
       if (browser) {
-        browser.close().catch(() => {});
+        try {
+//          await browser.close();
+            browser.close().catch(() => {});
+        } catch (e) {
+          // Ignore close error
+        }
       }
       
+      // Load from file if available
       return await this.loadFromFile();
     }
   }
@@ -115,10 +131,12 @@ class SimplifiedShowsScraper {
     const today = this.getTodayDate();
 
     shows.forEach(show => {
+      // Extract the data we want
       const data = {
         id: show.facilityId || show.id,
         name: show.name,
         
+        // Location
         locationName: show.locationName,
         land: this.extractLandFromLocation(show.locationName),
         coordinates: show.marker ? {
@@ -126,20 +144,26 @@ class SimplifiedShowsScraper {
           lng: show.marker.lng
         } : null,
         
+        // Show details
         showType: show.facetGroupType || 'Entertainment',
         entertainmentType: show.type?.facets || '',
         duration: this.extractDuration(show),
         
+        // Schedule
         showtimes: this.extractShowtimes(show.schedule, today),
         isClosed: this.checkIfClosed(show.schedule, today),
         
+        // Links
         showLink: this.buildShowLink(show),
         
+        // Additional info
         description: show.descriptions?.short || show.descriptions?.long || '',
         
+        // Status
         status: 'OPERATING'
       };
 
+      // Organize by park
       if (data.locationName?.includes('Disneyland Park')) {
         if (!disneyland[data.land]) disneyland[data.land] = [];
         disneyland[data.land].push(data);
@@ -149,6 +173,7 @@ class SimplifiedShowsScraper {
       }
     });
 
+    // Sort alphabetically
     this.sortShows(disneyland);
     this.sortShows(californiaAdventure);
 
@@ -189,6 +214,7 @@ class SimplifiedShowsScraper {
   }
 
   extractDuration(show) {
+    // Try to extract duration from various fields
     if (show.duration) return show.duration;
     if (show.descriptions?.long) {
       const match = show.descriptions.long.match(/(\d+)\s*(minute|min)/i);
@@ -203,6 +229,7 @@ class SimplifiedShowsScraper {
     const showtimes = [];
     
     schedule.schedules.forEach(daySchedule => {
+      // If date matches or no specific date filtering
       if (!date || daySchedule.date === date) {
         showtimes.push({
           date: daySchedule.date,
@@ -234,12 +261,14 @@ class SimplifiedShowsScraper {
   }
 
   buildShowLink(show) {
+    // Check webLinks first
     if (show.webLinks?.dlrDetails?.href) {
       const href = show.webLinks.dlrDetails.href;
       if (href.startsWith('http')) return href;
       return `https://disneyland.disney.go.com${href}`;
     }
     
+    // Fallback to url property
     if (show.url) {
       const url = show.url;
       if (url.startsWith('http')) return url;

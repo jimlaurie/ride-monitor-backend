@@ -2,16 +2,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 
-// Find Chrome on different platforms
-function findChrome() {
-  if (process.env.DYNO) {
-    // On Heroku - let Puppeteer find it automatically
-    return undefined;
-  }
-  // On local Mac
-  return '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
-}
-
 class SimplifiedDiningScraper {
   constructor() {
     this.cache = {
@@ -29,7 +19,18 @@ class SimplifiedDiningScraper {
     console.log('🎭 Starting Puppeteer dining scraper...');
     
     let browser;
-    try {
+//    try {
+//      browser = await puppeteer.launch({
+//        headless: 'new',
+//          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+//          args: [
+//          '--no-sandbox',
+//          '--disable-setuid-sandbox',
+//          '--disable-dev-shm-usage',
+//          '--disable-gpu',
+//          '--disable-http2' // This fixes ERR_HTTP2_PROTOCOL_ERROR
+//        ]
+//      });
       const launchOptions = {
         headless: 'new',
         args: [
@@ -41,20 +42,24 @@ class SimplifiedDiningScraper {
         ]
       };
 
-      const chromePath = findChrome();
-      if (chromePath) {
-        launchOptions.executablePath = chromePath;
+      // On Heroku, let Puppeteer find Chrome automatically
+      // On local Mac, use installed Chrome
+      if (!process.env.DYNO) {
+        // Running locally on Mac
+        launchOptions.executablePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
       }
 
       browser = await puppeteer.launch(launchOptions);
-
+      
       const page = await browser.newPage();
       
+      // Set a more realistic viewport and user agent
       await page.setViewport({ width: 1920, height: 1080 });
       await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
       console.log('📄 Loading Disney dining page...');
       
+      // Capture API responses
       let diningData = null;
       
       page.on('response', async (response) => {
@@ -72,15 +77,18 @@ class SimplifiedDiningScraper {
         }
       });
 
+      // Navigate to page
       await page.goto('https://disneyland.disney.go.com/dining/', {
         waitUntil: 'networkidle0',
         timeout: 45000
       });
 
+      // Wait for API calls to complete
       await this.sleep(5000);
 
-      await browser.close();
-
+//      await browser.close();
+      browser.close().catch(() => {});
+      
       if (!diningData || diningData.length === 0) {
         console.log('⚠️  No dining data captured, loading from cache...');
         return await this.loadFromFile();
@@ -88,9 +96,11 @@ class SimplifiedDiningScraper {
 
       console.log(`🍽️  Processing ${diningData.length} restaurants...`);
 
+      // Process the data
       this.cache = this.organizeRestaurants(diningData);
       this.lastScrape = new Date();
 
+      // Save to file
       await this.saveToFile();
 
       console.log('✅ Dining data scraping complete!');
@@ -102,9 +112,15 @@ class SimplifiedDiningScraper {
     } catch (error) {
       console.error('❌ Puppeteer scraping error:', error.message);
       if (browser) {
-        browser.close().catch(() => {});
+        try {
+ //         await browser.close();
+            browser.close().catch(() => {});
+        } catch (e) {
+          // Ignore close error
+        }
       }
       
+      // Load from file if available
       return await this.loadFromFile();
     }
   }
@@ -115,10 +131,12 @@ class SimplifiedDiningScraper {
     const today = this.getTodayDate();
 
     restaurants.forEach(restaurant => {
+      // Extract the data we want
       const data = {
         id: restaurant.facilityId || restaurant.id,
         name: restaurant.name,
         
+        // Location
         locationName: restaurant.locationName,
         land: this.extractLandFromLocation(restaurant.locationName),
         coordinates: restaurant.marker ? {
@@ -126,21 +144,32 @@ class SimplifiedDiningScraper {
           lng: restaurant.marker.lng
         } : null,
         
+        // Type & Pricing
         serviceType: restaurant.facetGroupType || 'Dining',
         cuisineType: restaurant.type?.facets || '',
         priceRange: this.extractPriceRange(restaurant.facets?.priceRange),
         
+        // Hours
         hours: this.extractHours(restaurant.schedule, today),
         isClosed: this.checkIfClosed(restaurant.schedule, today),
         
-        menuLink: this.buildMenuLink(restaurant),
-        
+        // Links
+//        menuLink: restaurant.webLinks?.dlrDetails?.href
+//          ? `https://disneyland.disney.go.com${restaurant.webLinks.dlrDetails.href}`
+//          : restaurant.url
+//          ? `https://disneyland.disney.go.com${restaurant.url}`
+//          : null,
+          menuLink: this.buildMenuLink(restaurant),
+          
+        // Features
         mobileOrder: this.hasMobileOrder(restaurant.facets || {}),
         acceptsReservations: this.acceptsReservations(restaurant),
         
+        // Status
         status: 'OPERATING'
       };
 
+      // Organize by park
       if (data.locationName?.includes('Disneyland Park')) {
         if (!disneyland[data.land]) disneyland[data.land] = [];
         disneyland[data.land].push(data);
@@ -153,6 +182,7 @@ class SimplifiedDiningScraper {
       }
     });
 
+    // Sort alphabetically
     this.sortRestaurants(disneyland);
     this.sortRestaurants(californiaAdventure);
 
@@ -230,23 +260,29 @@ class SimplifiedDiningScraper {
     const serviceType = restaurant.facetGroupType || '';
     return serviceType.includes('Table Service');
   }
-
-  buildMenuLink(restaurant) {
-    if (restaurant.webLinks?.dlrDetails?.href) {
-      const href = restaurant.webLinks.dlrDetails.href;
-      if (href.startsWith('http')) return href;
-      return `https://disneyland.disney.go.com${href}`;
-    }
-    
-    if (restaurant.url) {
-      const url = restaurant.url;
-      if (url.startsWith('http')) return url;
-      return `https://disneyland.disney.go.com${url}`;
-    }
-    
-    return null;
-  }
-
+// added for menuLink
+    buildMenuLink(restaurant) {
+       // Check webLinks first
+       if (restaurant.webLinks?.dlrDetails?.href) {
+         const href = restaurant.webLinks.dlrDetails.href;
+         // If it's already a full URL, return as-is
+         if (href.startsWith('http')) return href;
+         // Otherwise prepend the domain
+         return `https://disneyland.disney.go.com${href}`;
+       }
+       
+       // Fallback to url property
+       if (restaurant.url) {
+         const url = restaurant.url;
+         // If it's already a full URL, return as-is
+         if (url.startsWith('http')) return url;
+         // Otherwise prepend the domain
+         return `https://disneyland.disney.go.com${url}`;
+       }
+       
+       return null;
+     }
+ // end of add
   sortRestaurants(parkData) {
     Object.keys(parkData).forEach(land => {
       parkData[land].sort((a, b) => a.name.localeCompare(b.name));
