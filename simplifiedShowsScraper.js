@@ -86,8 +86,9 @@ class SimplifiedShowsScraper {
       // Wait for API calls to complete
       await this.sleep(5000);
 
-      await browser.close();
-
+//      await browser.close();
+      browser.close().catch(() => {});
+      
       if (!showsData || showsData.length === 0) {
         console.log('⚠️  No shows data captured, loading from cache...');
         return await this.loadFromFile();
