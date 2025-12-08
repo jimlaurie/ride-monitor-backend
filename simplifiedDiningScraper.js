@@ -27,7 +27,13 @@ class SimplifiedDiningScraper {
   }
 
   async scrapeDiningData() {
-    console.log('🎭 Starting Puppeteer dining scraper...');
+      // Skip scraping on Heroku - use cached data only
+      if (process.env.DYNO) {
+        console.log('⚠️  Skipping Puppeteer on Heroku (memory limits), using cache...');
+        return await this.loadFromFile();
+      }
+         
+      console.log('🎭 Starting Puppeteer dining scraper...');
     
     let browser;
     try {
