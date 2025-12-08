@@ -16,7 +16,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:30 PM",
               "endTime": "9:30 PM",
               "rawStartTime": "21:30:00",
@@ -43,7 +43,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -70,7 +70,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -97,7 +97,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:00 PM",
               "endTime": "5:00 PM",
               "rawStartTime": "17:00:00",
@@ -124,19 +124,19 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "12:45 PM",
-              "endTime": "12:45 PM",
-              "rawStartTime": "12:45:00",
-              "rawEndTime": "12:45:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:00 PM",
               "endTime": "3:00 PM",
               "rawStartTime": "15:00:00",
               "rawEndTime": "15:00:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "5:15 PM",
+              "endTime": "5:15 PM",
+              "rawStartTime": "17:15:00",
+              "rawEndTime": "17:15:00",
               "isClosed": false
             }
           ],
@@ -159,18 +159,18 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
-              "endTime": "8:15 PM",
+              "endTime": "9:15 PM",
               "rawStartTime": "08:00:00",
-              "rawEndTime": "20:15:00",
+              "rawEndTime": "21:15:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "11:00 PM",
+              "date": "2025-12-08",
+              "startTime": "10:00 PM",
               "endTime": "12:00 AM",
-              "rawStartTime": "23:00:00",
+              "rawStartTime": "22:00:00",
               "rawEndTime": "00:00:00",
               "isClosed": false
             }
@@ -194,7 +194,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:15 PM",
               "rawStartTime": "08:00:00",
@@ -202,7 +202,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -229,7 +229,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -256,7 +256,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -283,7 +283,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -310,7 +310,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -337,7 +337,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -364,7 +364,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
@@ -372,7 +372,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -399,7 +399,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
@@ -407,7 +407,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -434,7 +434,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "4:00 PM",
               "rawStartTime": "10:00:00",
@@ -461,7 +461,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:00 PM",
               "endTime": "6:00 PM",
               "rawStartTime": "14:00:00",
@@ -488,7 +488,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -515,18 +515,10 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
-              "endTime": "3:00 PM",
-              "rawStartTime": "08:00:00",
-              "rawEndTime": "15:00:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "10:00 PM",
               "endTime": "12:00 AM",
-              "rawStartTime": "22:00:00",
+              "rawStartTime": "08:00:00",
               "rawEndTime": "00:00:00",
               "isClosed": false
             }
@@ -550,7 +542,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
@@ -558,7 +550,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -585,7 +577,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -612,23 +604,15 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "9:00 PM",
-              "endTime": "9:00 PM",
-              "rawStartTime": "21:00:00",
-              "rawEndTime": "21:00:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "10:30 PM",
-              "endTime": "10:30 PM",
-              "rawStartTime": "22:30:00",
-              "rawEndTime": "22:30:00",
-              "isClosed": false
+              "date": "2025-12-08",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
             }
           ],
-          "isClosed": false,
+          "isClosed": true,
           "showLink": "https://disneyland.disney.go.com/entertainment/disneyland/fantasmic/",
           "description": "",
           "status": "OPERATING"
@@ -665,7 +649,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -692,7 +676,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:30 PM",
               "endTime": "9:30 PM",
               "rawStartTime": "21:30:00",
@@ -755,7 +739,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -782,7 +766,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
@@ -790,7 +774,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -817,7 +801,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -862,7 +846,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -889,7 +873,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -916,7 +900,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "5:00 PM",
               "rawStartTime": "10:00:00",
@@ -943,7 +927,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -970,7 +954,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -997,7 +981,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1042,7 +1026,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:45 PM",
               "rawStartTime": "08:00:00",
@@ -1050,7 +1034,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1077,7 +1061,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1104,7 +1088,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1131,15 +1115,15 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "12:00 AM",
-              "endTime": "11:59 PM",
-              "rawStartTime": "00:00:00",
-              "rawEndTime": "23:59:00",
-              "isClosed": true
+              "date": "2025-12-08",
+              "startTime": "8:00 AM",
+              "endTime": "3:00 PM",
+              "rawStartTime": "08:00:00",
+              "rawEndTime": "15:00:00",
+              "isClosed": false
             }
           ],
-          "isClosed": true,
+          "isClosed": false,
           "showLink": "https://disneyland.disney.go.com/attractions/disneyland/main-street-vehicles/",
           "description": "",
           "status": "OPERATING"
@@ -1158,11 +1142,11 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
-              "endTime": "5:40 PM",
+              "endTime": "8:40 PM",
               "rawStartTime": "09:00:00",
-              "rawEndTime": "17:40:00",
+              "rawEndTime": "20:40:00",
               "isClosed": false
             }
           ],
@@ -1185,7 +1169,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1230,7 +1214,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "5:00 PM",
               "rawStartTime": "10:00:00",
@@ -1257,23 +1241,15 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "8:40 AM",
-              "endTime": "9:00 AM",
-              "rawStartTime": "08:40:00",
-              "rawEndTime": "09:00:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "10:00 AM",
+              "date": "2025-12-08",
+              "startTime": "8:15 AM",
               "endTime": "10:20 AM",
-              "rawStartTime": "10:00:00",
+              "rawStartTime": "08:15:00",
               "rawEndTime": "10:20:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:15 AM",
               "endTime": "2:40 PM",
               "rawStartTime": "11:15:00",
@@ -1300,7 +1276,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
@@ -1308,7 +1284,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1335,7 +1311,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -1362,7 +1338,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -1389,7 +1365,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1416,7 +1392,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "7:00 PM",
               "rawStartTime": "08:00:00",
@@ -1443,7 +1419,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:30 PM",
               "rawStartTime": "08:00:00",
@@ -1451,7 +1427,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1478,11 +1454,11 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
-              "endTime": "1:00 PM",
+              "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
-              "rawEndTime": "13:00:00",
+              "rawEndTime": "20:00:00",
               "isClosed": false
             }
           ],
@@ -1505,7 +1481,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -1532,7 +1508,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:15 PM",
               "rawStartTime": "08:00:00",
@@ -1540,7 +1516,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1567,7 +1543,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:30 PM",
               "rawStartTime": "08:00:00",
@@ -1575,7 +1551,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1602,7 +1578,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "4:15 PM",
               "rawStartTime": "09:00:00",
@@ -1629,7 +1605,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1674,7 +1650,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
@@ -1682,7 +1658,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1709,7 +1685,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:00 AM",
               "endTime": "3:30 PM",
               "rawStartTime": "11:00:00",
@@ -1736,7 +1712,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:25 PM",
               "endTime": "8:25 PM",
               "rawStartTime": "20:25:00",
@@ -1744,7 +1720,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "10:15 PM",
               "rawStartTime": "22:15:00",
@@ -1771,7 +1747,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "7:30 PM",
               "rawStartTime": "08:00:00",
@@ -1779,7 +1755,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1806,7 +1782,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "8:30 PM",
               "rawStartTime": "08:00:00",
@@ -1814,7 +1790,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "12:00 AM",
               "rawStartTime": "22:15:00",
@@ -1841,7 +1817,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1886,7 +1862,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1931,7 +1907,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -1958,7 +1934,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -1985,51 +1961,51 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "9:40 AM",
-              "endTime": "9:40 AM",
-              "rawStartTime": "09:40:00",
-              "rawEndTime": "09:40:00",
+              "date": "2025-12-08",
+              "startTime": "10:30 AM",
+              "endTime": "10:30 AM",
+              "rawStartTime": "10:30:00",
+              "rawEndTime": "10:30:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "10:45 AM",
-              "endTime": "10:45 AM",
-              "rawStartTime": "10:45:00",
-              "rawEndTime": "10:45:00",
+              "date": "2025-12-08",
+              "startTime": "11:40 AM",
+              "endTime": "11:40 AM",
+              "rawStartTime": "11:40:00",
+              "rawEndTime": "11:40:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "12:00 PM",
-              "endTime": "12:00 PM",
-              "rawStartTime": "12:00:00",
-              "rawEndTime": "12:00:00",
+              "date": "2025-12-08",
+              "startTime": "12:55 PM",
+              "endTime": "12:55 PM",
+              "rawStartTime": "12:55:00",
+              "rawEndTime": "12:55:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "1:50 PM",
-              "endTime": "1:50 PM",
-              "rawStartTime": "13:50:00",
-              "rawEndTime": "13:50:00",
+              "date": "2025-12-08",
+              "startTime": "2:30 PM",
+              "endTime": "2:30 PM",
+              "rawStartTime": "14:30:00",
+              "rawEndTime": "14:30:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "2:40 PM",
-              "endTime": "2:40 PM",
-              "rawStartTime": "14:40:00",
-              "rawEndTime": "14:40:00",
+              "date": "2025-12-08",
+              "startTime": "3:40 PM",
+              "endTime": "3:40 PM",
+              "rawStartTime": "15:40:00",
+              "rawEndTime": "15:40:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "4:00 PM",
-              "endTime": "4:00 PM",
-              "rawStartTime": "16:00:00",
-              "rawEndTime": "16:00:00",
+              "date": "2025-12-08",
+              "startTime": "4:50 PM",
+              "endTime": "4:50 PM",
+              "rawStartTime": "16:50:00",
+              "rawEndTime": "16:50:00",
               "isClosed": false
             }
           ],
@@ -2052,7 +2028,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:30 PM",
               "endTime": "6:30 PM",
               "rawStartTime": "18:30:00",
@@ -2060,7 +2036,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 PM",
               "endTime": "9:00 PM",
               "rawStartTime": "21:00:00",
@@ -2068,7 +2044,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:30 PM",
               "endTime": "10:30 PM",
               "rawStartTime": "22:30:00",
@@ -2076,7 +2052,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:30 PM",
               "endTime": "11:30 PM",
               "rawStartTime": "23:30:00",
@@ -2103,7 +2079,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -2130,7 +2106,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:20 AM",
               "endTime": "10:20 AM",
               "rawStartTime": "10:20:00",
@@ -2138,7 +2114,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:10 AM",
               "endTime": "11:10 AM",
               "rawStartTime": "11:10:00",
@@ -2146,15 +2122,15 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "12:05 PM",
-              "endTime": "12:05 PM",
-              "rawStartTime": "12:05:00",
-              "rawEndTime": "12:05:00",
+              "date": "2025-12-08",
+              "startTime": "12:15 PM",
+              "endTime": "12:15 PM",
+              "rawStartTime": "12:15:00",
+              "rawEndTime": "12:15:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:30 PM",
               "endTime": "1:30 PM",
               "rawStartTime": "13:30:00",
@@ -2162,19 +2138,19 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "2:20 PM",
-              "endTime": "2:20 PM",
-              "rawStartTime": "14:20:00",
-              "rawEndTime": "14:20:00",
+              "date": "2025-12-08",
+              "startTime": "2:15 PM",
+              "endTime": "2:15 PM",
+              "rawStartTime": "14:15:00",
+              "rawEndTime": "14:15:00",
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
-              "startTime": "4:10 PM",
-              "endTime": "4:10 PM",
-              "rawStartTime": "16:10:00",
-              "rawEndTime": "16:10:00",
+              "date": "2025-12-08",
+              "startTime": "4:00 PM",
+              "endTime": "4:00 PM",
+              "rawStartTime": "16:00:00",
+              "rawEndTime": "16:00:00",
               "isClosed": false
             }
           ],
@@ -2197,11 +2173,11 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
-              "endTime": "1:00 PM",
+              "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
-              "rawEndTime": "13:00:00",
+              "rawEndTime": "20:00:00",
               "isClosed": false
             }
           ],
@@ -2224,7 +2200,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -2251,7 +2227,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -2296,11 +2272,11 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
-              "endTime": "1:00 PM",
+              "endTime": "8:00 PM",
               "rawStartTime": "08:00:00",
-              "rawEndTime": "13:00:00",
+              "rawEndTime": "20:00:00",
               "isClosed": false
             }
           ],
@@ -2323,7 +2299,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "12:00 AM",
               "rawStartTime": "08:00:00",
@@ -2350,11 +2326,19 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "7:00 PM",
-              "endTime": "7:00 PM",
-              "rawStartTime": "19:00:00",
-              "rawEndTime": "19:00:00",
+              "date": "2025-12-08",
+              "startTime": "7:30 PM",
+              "endTime": "7:30 PM",
+              "rawStartTime": "19:30:00",
+              "rawEndTime": "19:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "8:30 PM",
+              "endTime": "8:30 PM",
+              "rawStartTime": "20:30:00",
+              "rawEndTime": "20:30:00",
               "isClosed": false
             }
           ],
@@ -2399,15 +2383,47 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "12:00 AM",
-              "endTime": "11:59 PM",
-              "rawStartTime": "00:00:00",
-              "rawEndTime": "23:59:00",
-              "isClosed": true
+              "date": "2025-12-08",
+              "startTime": "5:05 PM",
+              "endTime": "5:05 PM",
+              "rawStartTime": "17:05:00",
+              "rawEndTime": "17:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "6:05 PM",
+              "endTime": "6:05 PM",
+              "rawStartTime": "18:05:00",
+              "rawEndTime": "18:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "7:45 PM",
+              "endTime": "7:45 PM",
+              "rawStartTime": "19:45:00",
+              "rawEndTime": "19:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "8:45 PM",
+              "endTime": "8:45 PM",
+              "rawStartTime": "20:45:00",
+              "rawEndTime": "20:45:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "9:45 PM",
+              "endTime": "9:45 PM",
+              "rawStartTime": "21:45:00",
+              "rawEndTime": "21:45:00",
+              "isClosed": false
             }
           ],
-          "isClosed": true,
+          "isClosed": false,
           "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/musical-christmas-mariachi/",
           "description": "",
           "status": "OPERATING"
@@ -2444,7 +2460,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "9:00 AM",
               "rawStartTime": "09:00:00",
@@ -2452,7 +2468,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:30 AM",
               "endTime": "9:30 AM",
               "rawStartTime": "09:30:00",
@@ -2460,7 +2476,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "10:00 AM",
               "rawStartTime": "10:00:00",
@@ -2468,7 +2484,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:30 AM",
               "endTime": "10:30 AM",
               "rawStartTime": "10:30:00",
@@ -2476,7 +2492,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:00 AM",
               "endTime": "11:00 AM",
               "rawStartTime": "11:00:00",
@@ -2484,7 +2500,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:30 AM",
               "endTime": "11:30 AM",
               "rawStartTime": "11:30:00",
@@ -2492,7 +2508,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 PM",
               "endTime": "12:00 PM",
               "rawStartTime": "12:00:00",
@@ -2500,7 +2516,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:30 PM",
               "endTime": "12:30 PM",
               "rawStartTime": "12:30:00",
@@ -2508,7 +2524,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:00 PM",
               "endTime": "1:00 PM",
               "rawStartTime": "13:00:00",
@@ -2516,7 +2532,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:30 PM",
               "endTime": "1:30 PM",
               "rawStartTime": "13:30:00",
@@ -2524,7 +2540,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:00 PM",
               "endTime": "2:00 PM",
               "rawStartTime": "14:00:00",
@@ -2532,7 +2548,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:30 PM",
               "endTime": "2:30 PM",
               "rawStartTime": "14:30:00",
@@ -2540,7 +2556,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:00 PM",
               "endTime": "3:00 PM",
               "rawStartTime": "15:00:00",
@@ -2548,7 +2564,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:30 PM",
               "endTime": "3:30 PM",
               "rawStartTime": "15:30:00",
@@ -2556,7 +2572,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:00 PM",
               "endTime": "4:00 PM",
               "rawStartTime": "16:00:00",
@@ -2564,7 +2580,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:30 PM",
               "endTime": "4:30 PM",
               "rawStartTime": "16:30:00",
@@ -2572,7 +2588,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:00 PM",
               "endTime": "5:00 PM",
               "rawStartTime": "17:00:00",
@@ -2580,7 +2596,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:30 PM",
               "endTime": "5:30 PM",
               "rawStartTime": "17:30:00",
@@ -2588,7 +2604,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:00 PM",
               "endTime": "6:00 PM",
               "rawStartTime": "18:00:00",
@@ -2596,7 +2612,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:30 PM",
               "endTime": "6:30 PM",
               "rawStartTime": "18:30:00",
@@ -2604,7 +2620,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:00 PM",
               "endTime": "7:00 PM",
               "rawStartTime": "19:00:00",
@@ -2612,7 +2628,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 PM",
               "endTime": "7:30 PM",
               "rawStartTime": "19:30:00",
@@ -2620,7 +2636,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 PM",
               "endTime": "8:00 PM",
               "rawStartTime": "20:00:00",
@@ -2628,7 +2644,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:30 PM",
               "endTime": "8:30 PM",
               "rawStartTime": "20:30:00",
@@ -2655,10 +2671,10 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "9:45 AM",
+              "date": "2025-12-08",
+              "startTime": "9:00 AM",
               "endTime": "4:00 PM",
-              "rawStartTime": "09:45:00",
+              "rawStartTime": "09:00:00",
               "rawEndTime": "16:00:00",
               "isClosed": false
             }
@@ -2682,7 +2698,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -2709,7 +2725,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -2736,7 +2752,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:50 PM",
               "endTime": "4:50 PM",
               "rawStartTime": "16:50:00",
@@ -2763,7 +2779,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -2790,55 +2806,15 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "12:10 PM",
-              "endTime": "12:10 PM",
-              "rawStartTime": "12:10:00",
-              "rawEndTime": "12:10:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "1:10 PM",
-              "endTime": "1:10 PM",
-              "rawStartTime": "13:10:00",
-              "rawEndTime": "13:10:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "2:10 PM",
-              "endTime": "2:10 PM",
-              "rawStartTime": "14:10:00",
-              "rawEndTime": "14:10:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "3:45 PM",
-              "endTime": "3:45 PM",
-              "rawStartTime": "15:45:00",
-              "rawEndTime": "15:45:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "4:45 PM",
-              "endTime": "4:45 PM",
-              "rawStartTime": "16:45:00",
-              "rawEndTime": "16:45:00",
-              "isClosed": false
-            },
-            {
-              "date": "2025-12-07",
-              "startTime": "5:45 PM",
-              "endTime": "5:45 PM",
-              "rawStartTime": "17:45:00",
-              "rawEndTime": "17:45:00",
-              "isClosed": false
+              "date": "2025-12-08",
+              "startTime": "12:00 AM",
+              "endTime": "11:59 PM",
+              "rawStartTime": "00:00:00",
+              "rawEndTime": "23:59:00",
+              "isClosed": true
             }
           ],
-          "isClosed": false,
+          "isClosed": true,
           "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/viva-navidad-street-party/",
           "description": "",
           "status": "OPERATING"
@@ -2857,7 +2833,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "10:00 AM",
               "rawStartTime": "10:00:00",
@@ -2865,7 +2841,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:00 AM",
               "endTime": "11:00 AM",
               "rawStartTime": "11:00:00",
@@ -2873,7 +2849,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 PM",
               "endTime": "12:00 PM",
               "rawStartTime": "12:00:00",
@@ -2881,7 +2857,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:45 PM",
               "endTime": "1:45 PM",
               "rawStartTime": "13:45:00",
@@ -2889,7 +2865,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:45 PM",
               "endTime": "2:45 PM",
               "rawStartTime": "14:45:00",
@@ -2897,7 +2873,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:45 PM",
               "endTime": "3:45 PM",
               "rawStartTime": "15:45:00",
@@ -2924,7 +2900,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:00 PM",
               "endTime": "6:00 PM",
               "rawStartTime": "15:00:00",
@@ -2951,7 +2927,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:30 AM",
               "endTime": "1:30 PM",
               "rawStartTime": "10:30:00",
@@ -2996,7 +2972,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:45 AM",
               "endTime": "9:45 AM",
               "rawStartTime": "09:45:00",
@@ -3004,7 +2980,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:45 AM",
               "endTime": "10:45 AM",
               "rawStartTime": "10:45:00",
@@ -3012,7 +2988,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:45 AM",
               "endTime": "11:45 AM",
               "rawStartTime": "11:45:00",
@@ -3020,7 +2996,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:15 PM",
               "endTime": "1:15 PM",
               "rawStartTime": "13:15:00",
@@ -3028,7 +3004,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:15 PM",
               "endTime": "2:15 PM",
               "rawStartTime": "14:15:00",
@@ -3036,7 +3012,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:15 PM",
               "endTime": "3:15 PM",
               "rawStartTime": "15:15:00",
@@ -3063,7 +3039,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "9:00 PM",
               "rawStartTime": "08:00:00",
@@ -3090,7 +3066,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3117,7 +3093,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3144,7 +3120,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "9:00 PM",
               "rawStartTime": "09:00:00",
@@ -3171,7 +3147,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -3179,7 +3155,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3206,7 +3182,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:00 PM",
               "endTime": "4:00 PM",
               "rawStartTime": "16:00:00",
@@ -3214,7 +3190,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:00 PM",
               "endTime": "5:00 PM",
               "rawStartTime": "17:00:00",
@@ -3222,7 +3198,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:00 PM",
               "endTime": "6:00 PM",
               "rawStartTime": "18:00:00",
@@ -3230,7 +3206,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:15 PM",
               "endTime": "7:15 PM",
               "rawStartTime": "19:15:00",
@@ -3238,7 +3214,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:15 PM",
               "endTime": "8:15 PM",
               "rawStartTime": "20:15:00",
@@ -3246,7 +3222,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:15 PM",
               "endTime": "9:15 PM",
               "rawStartTime": "21:15:00",
@@ -3273,7 +3249,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 AM",
               "endTime": "10:15 AM",
               "rawStartTime": "10:15:00",
@@ -3281,7 +3257,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:15 AM",
               "endTime": "11:15 AM",
               "rawStartTime": "11:15:00",
@@ -3289,7 +3265,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:15 PM",
               "endTime": "12:15 PM",
               "rawStartTime": "12:15:00",
@@ -3297,7 +3273,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:00 PM",
               "endTime": "2:00 PM",
               "rawStartTime": "14:00:00",
@@ -3305,7 +3281,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:00 PM",
               "endTime": "3:00 PM",
               "rawStartTime": "15:00:00",
@@ -3313,7 +3289,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:00 PM",
               "endTime": "4:00 PM",
               "rawStartTime": "16:00:00",
@@ -3340,7 +3316,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -3367,7 +3343,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -3375,7 +3351,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3402,7 +3378,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3429,7 +3405,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3456,7 +3432,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3483,7 +3459,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3510,7 +3486,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -3537,7 +3513,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -3545,7 +3521,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3572,7 +3548,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -3599,7 +3575,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -3626,7 +3602,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "9:00 AM",
               "rawStartTime": "09:00:00",
@@ -3634,7 +3610,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "10:00 AM",
               "rawStartTime": "10:00:00",
@@ -3642,7 +3618,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:25 AM",
               "endTime": "11:25 AM",
               "rawStartTime": "11:25:00",
@@ -3650,7 +3626,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:25 PM",
               "endTime": "12:25 PM",
               "rawStartTime": "12:25:00",
@@ -3658,7 +3634,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:20 PM",
               "endTime": "1:20 PM",
               "rawStartTime": "13:20:00",
@@ -3666,7 +3642,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:15 PM",
               "endTime": "2:15 PM",
               "rawStartTime": "14:15:00",
@@ -3674,7 +3650,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:00 PM",
               "endTime": "4:00 PM",
               "rawStartTime": "16:00:00",
@@ -3682,7 +3658,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:00 PM",
               "endTime": "5:00 PM",
               "rawStartTime": "17:00:00",
@@ -3690,7 +3666,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:30 PM",
               "endTime": "5:30 PM",
               "rawStartTime": "17:30:00",
@@ -3698,7 +3674,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:00 PM",
               "endTime": "6:00 PM",
               "rawStartTime": "18:00:00",
@@ -3706,7 +3682,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:30 PM",
               "endTime": "6:30 PM",
               "rawStartTime": "18:30:00",
@@ -3714,7 +3690,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:00 PM",
               "endTime": "7:00 PM",
               "rawStartTime": "19:00:00",
@@ -3722,7 +3698,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 PM",
               "endTime": "7:30 PM",
               "rawStartTime": "19:30:00",
@@ -3730,7 +3706,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 PM",
               "endTime": "8:00 PM",
               "rawStartTime": "20:00:00",
@@ -3738,7 +3714,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:30 PM",
               "endTime": "8:30 PM",
               "rawStartTime": "20:30:00",
@@ -3746,7 +3722,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 PM",
               "endTime": "9:00 PM",
               "rawStartTime": "21:00:00",
@@ -3754,7 +3730,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:30 PM",
               "endTime": "9:30 PM",
               "rawStartTime": "21:30:00",
@@ -3796,7 +3772,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:30 AM",
               "endTime": "8:00 PM",
               "rawStartTime": "08:30:00",
@@ -3823,7 +3799,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3850,7 +3826,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "9:00 PM",
               "rawStartTime": "09:00:00",
@@ -3877,15 +3853,47 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
-              "startTime": "12:00 AM",
-              "endTime": "11:59 PM",
-              "rawStartTime": "00:00:00",
-              "rawEndTime": "23:59:00",
-              "isClosed": true
+              "date": "2025-12-08",
+              "startTime": "10:30 AM",
+              "endTime": "10:30 AM",
+              "rawStartTime": "10:30:00",
+              "rawEndTime": "10:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "11:30 AM",
+              "endTime": "11:30 AM",
+              "rawStartTime": "11:30:00",
+              "rawEndTime": "11:30:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "1:05 PM",
+              "endTime": "1:05 PM",
+              "rawStartTime": "13:05:00",
+              "rawEndTime": "13:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "2:05 PM",
+              "endTime": "2:05 PM",
+              "rawStartTime": "14:05:00",
+              "rawEndTime": "14:05:00",
+              "isClosed": false
+            },
+            {
+              "date": "2025-12-08",
+              "startTime": "3:05 PM",
+              "endTime": "3:05 PM",
+              "rawStartTime": "15:05:00",
+              "rawEndTime": "15:05:00",
+              "isClosed": false
             }
           ],
-          "isClosed": true,
+          "isClosed": false,
           "showLink": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/mirabels-gifts-of-the-season-show/",
           "description": "",
           "status": "OPERATING"
@@ -3904,7 +3912,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -3912,7 +3920,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -3939,7 +3947,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -3966,7 +3974,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:35 PM",
               "endTime": "12:35 PM",
               "rawStartTime": "12:35:00",
@@ -3974,7 +3982,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:35 PM",
               "endTime": "1:35 PM",
               "rawStartTime": "13:35:00",
@@ -3982,7 +3990,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:35 PM",
               "endTime": "2:35 PM",
               "rawStartTime": "14:35:00",
@@ -3990,7 +3998,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:05 PM",
               "endTime": "4:05 PM",
               "rawStartTime": "16:05:00",
@@ -3998,7 +4006,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:05 PM",
               "endTime": "5:05 PM",
               "rawStartTime": "17:05:00",
@@ -4006,7 +4014,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:05 PM",
               "endTime": "6:05 PM",
               "rawStartTime": "18:05:00",
@@ -4033,7 +4041,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "7:30 PM",
               "rawStartTime": "08:00:00",
@@ -4060,7 +4068,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "7:30 PM",
               "rawStartTime": "08:00:00",
@@ -4087,7 +4095,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4114,7 +4122,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "7:45 PM",
               "rawStartTime": "09:00:00",
@@ -4141,7 +4149,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4168,7 +4176,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -4176,7 +4184,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4203,7 +4211,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -4230,7 +4238,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4257,7 +4265,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "6:00 PM",
               "rawStartTime": "08:00:00",
@@ -4284,7 +4292,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -4292,7 +4300,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4337,7 +4345,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4364,7 +4372,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 AM",
               "endTime": "9:00 AM",
               "rawStartTime": "09:00:00",
@@ -4372,7 +4380,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:30 AM",
               "endTime": "9:30 AM",
               "rawStartTime": "09:30:00",
@@ -4380,7 +4388,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:00 AM",
               "endTime": "10:00 AM",
               "rawStartTime": "10:00:00",
@@ -4388,7 +4396,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:30 AM",
               "endTime": "10:30 AM",
               "rawStartTime": "10:30:00",
@@ -4396,7 +4404,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:00 AM",
               "endTime": "11:00 AM",
               "rawStartTime": "11:00:00",
@@ -4404,7 +4412,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "11:30 AM",
               "endTime": "11:30 AM",
               "rawStartTime": "11:30:00",
@@ -4412,7 +4420,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 PM",
               "endTime": "12:00 PM",
               "rawStartTime": "12:00:00",
@@ -4420,7 +4428,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:30 PM",
               "endTime": "12:30 PM",
               "rawStartTime": "12:30:00",
@@ -4428,7 +4436,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:00 PM",
               "endTime": "1:00 PM",
               "rawStartTime": "13:00:00",
@@ -4436,7 +4444,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "1:30 PM",
               "endTime": "1:30 PM",
               "rawStartTime": "13:30:00",
@@ -4444,7 +4452,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:00 PM",
               "endTime": "2:00 PM",
               "rawStartTime": "14:00:00",
@@ -4452,7 +4460,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "2:30 PM",
               "endTime": "2:30 PM",
               "rawStartTime": "14:30:00",
@@ -4460,7 +4468,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:00 PM",
               "endTime": "3:00 PM",
               "rawStartTime": "15:00:00",
@@ -4468,7 +4476,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "3:30 PM",
               "endTime": "3:30 PM",
               "rawStartTime": "15:30:00",
@@ -4476,7 +4484,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:00 PM",
               "endTime": "4:00 PM",
               "rawStartTime": "16:00:00",
@@ -4484,7 +4492,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "4:30 PM",
               "endTime": "4:30 PM",
               "rawStartTime": "16:30:00",
@@ -4492,7 +4500,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:00 PM",
               "endTime": "5:00 PM",
               "rawStartTime": "17:00:00",
@@ -4500,7 +4508,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "5:30 PM",
               "endTime": "5:30 PM",
               "rawStartTime": "17:30:00",
@@ -4508,7 +4516,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:00 PM",
               "endTime": "6:00 PM",
               "rawStartTime": "18:00:00",
@@ -4516,7 +4524,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "6:30 PM",
               "endTime": "6:30 PM",
               "rawStartTime": "18:30:00",
@@ -4524,7 +4532,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:00 PM",
               "endTime": "7:00 PM",
               "rawStartTime": "19:00:00",
@@ -4532,7 +4540,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 PM",
               "endTime": "7:30 PM",
               "rawStartTime": "19:30:00",
@@ -4540,7 +4548,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 PM",
               "endTime": "8:00 PM",
               "rawStartTime": "20:00:00",
@@ -4548,7 +4556,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:30 PM",
               "endTime": "8:30 PM",
               "rawStartTime": "20:30:00",
@@ -4575,7 +4583,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "7:30 AM",
               "endTime": "8:00 AM",
               "rawStartTime": "07:30:00",
@@ -4583,7 +4591,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "8:00 AM",
               "endTime": "10:00 PM",
               "rawStartTime": "08:00:00",
@@ -4610,7 +4618,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "12:00 AM",
               "endTime": "11:59 PM",
               "rawStartTime": "00:00:00",
@@ -4637,7 +4645,7 @@
           "duration": null,
           "showtimes": [
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "9:00 PM",
               "endTime": "9:00 PM",
               "rawStartTime": "21:00:00",
@@ -4645,7 +4653,7 @@
               "isClosed": false
             },
             {
-              "date": "2025-12-07",
+              "date": "2025-12-08",
               "startTime": "10:15 PM",
               "endTime": "10:15 PM",
               "rawStartTime": "22:15:00",
@@ -4661,5 +4669,5 @@
       ]
     }
   },
-  "lastScrape": "2025-12-07T16:42:24.522Z"
+  "lastScrape": "2025-12-08T17:33:47.034Z"
 }
